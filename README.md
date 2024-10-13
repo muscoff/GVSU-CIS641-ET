@@ -9,7 +9,7 @@ The ET platform aims at providing students the opportunity to sell valuable item
 
 ## Team Members and Roles
 
-* [Mustapha Muhammed Botchway](https://github.com/muscoff/CIS641-HW2-Botchway)
+* [Mustapha Muhammed Botchway](https://github.com/muscoff/CIS-641-Botchway)
 
 ## Prerequisites
 
