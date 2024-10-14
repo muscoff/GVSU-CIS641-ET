@@ -1,10 +1,11 @@
+# Functional Requirements
 1. **Account Registration**
-* 1.1 - User fullname will be collected from the registration form
-* 1.2 - User's username and password will be collected from the registration form
+* 1.1 - The system shall collect User's fullname from the registration form
+* 1.2 - The system shall collect User's username and password from the registration form
 * 1.2.1 - If username or password is not provided, the registration form will not process the registration request and user will be asked to provide those details.
 * 1.2.2 - If username already exists, the registration form will prompt the user to provide a new username.
 * 1.2.3 - If the password does not match the required length for a valid password, the registration form will not process the registration request and user will be asked to provide a valid password.
-* 1.3 - If the registration form acquires all the required fields, the registration request will be processed and an account will be created for the user.
+* 1.3 - If the registration form acquires all the required fields, the system shall process the registration request and an account will be created for the user.
 
 2. **Login Form**
 * 2.1 - Username and password will be collected from the login form.
@@ -24,3 +25,9 @@
 * 4.2 - User can remove item(s) from the cart
 * 4.2.1 - User can empty the entire cart from a button press
 * 4.3 - User can view items in the cart.
+
+# Non-Functional Requirements
+1. The software shall be user-friendly supporting different device screen sizes
+2. The software shall retain some user information for easy retrieval
+3. The software request-response time shall be under 500ms
+4. The software shall provide security ensuring that user privacy is protected.
