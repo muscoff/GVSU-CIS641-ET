@@ -23,14 +23,18 @@ you run "npm install" in the terminal of both folders to install all the necessa
 
 ## Run Instructions
 
-### Frontend Run Instructions
+### [Frontend Run Instructions] (https://github.com/muscoff/GVSU-CIS641-ET/tree/main/src/frontend)
+The frontend app can be accessed here [frontend_folder] (https://github.com/muscoff/GVSU-CIS641-ET/tree/main/src/frontend)
+
 After successfully running "npm install" in the frontend folder to install all the required dependencies that the app needs, you can run the app by
 running the command "npm start" in the terminal.
 
 This would start the app locally and the app can be accessed in the browser via "localhost:3000".
 
 
-### Backend Run Instructions
+### [Backend Run Instructions] (https://github.com/muscoff/GVSU-CIS641-ET/tree/main/src/backend)
+The backend app can be accessed here [backend_folder] (https://github.com/muscoff/GVSU-CIS641-ET/tree/main/src/backend)
+
 After successfully running "npm install" in the backend folder to install all the required dependencies that the app needs, you can run the app by
 running the command "npm run dev" in the terminal to start the app locally in a development mode or you can also run "npm start" which would equally start the backend app.
 
