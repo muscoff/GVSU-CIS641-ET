@@ -19,7 +19,7 @@
 * 3.1.2 - If a user starts typing something in the search bar, the content on the page would  dynamically change to match the filtered results of the search.
 * 3.1.3 - If no results is found from the search, the page would show nothing at the product section
 
-4. Cart
+4. **Cart**
 * 4.1 - User can add items to the cart
 * 4.1.1 - If a user tries to add an item to the cart that is already in the cart, the quantity of the item will be incremented by 1.
 * 4.2 - User can remove item(s) from the cart
