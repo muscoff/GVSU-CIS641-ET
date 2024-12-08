@@ -34,40 +34,41 @@
 * 5.5 - Admin can update the orders that have been processed in the json database.
 
 
-# Non-Functional Requirement for Account Registration
-1. The software shall be user-friendly supporting different device screen sizes
-2. The software shall retain some user information for easy retrieval
-3. The software request-response time shall be under 500ms
-4. The software shall provide security ensuring that user privacy is protected.
-5. The app shall provide both frontend checks and backend checks to ensure the security and integrity of the application.
+# Non-Functional Requirement
+1. **Account Registration**
+1.1 The software shall be user-friendly supporting different device screen sizes
+1.2. The software shall retain some user information for easy retrieval
+1.3. The software request-response time shall be under 500ms
+1.4. The software shall provide security ensuring that user privacy is protected.
+1.5. The app shall provide both frontend checks and backend checks to ensure the security and integrity of the application.
 
-# Non-Functional Requirements for Login Form
-1. The app shall provide notifications to users during authentication
-2. The app shall retain some information which comes from request if it was successful to use in other pages.
-3. The app shall have a fast response time.
-4. The app shall be well laid out to ensure user satisfaction.
-5. The app shall render well on different device screen sizes without facing the functionality of any component
+2. **Login Form**
+2.1. The app shall provide notifications to users during authentication
+2.2 The app shall retain some information which comes from request if it was successful to use in other pages.
+2.3 The app shall have a fast response time.
+2.4. The app shall be well laid out to ensure user satisfaction.
+2.5. The app shall render well on different device screen sizes without facing the functionality of any component
 
-# Non-Functional Requirements for Search
-1. The app shall have a fast response time during search
-2. The app shall show only relevant filtered list to the users
-3. The app shall provide a dynamic page display during search.
-4. The app shall be well laid out to ensure user satisfaction.
-5. The app shall render well on different device screen sizes showing all search results
+3. **Search**
+3.1. The app shall have a fast response time during search
+3.2. The app shall show only relevant filtered list to the users
+3.3. The app shall provide a dynamic page display during search.
+3.4. The app shall be well laid out to ensure user satisfaction.
+3.5. The app shall render well on different device screen sizes showing all search results
 
-# Non-Functional Requirements for Cart
-1. The app shall save cart information locally on the device
-2. The app shall display cart information swiftly on the device
-3. The app shall render page update very fast upon change in cart information.
-4. The app shall ensure that cart information are easily accessible.
-5. The app shall render well on different device screen sizes showing all search results
+4. **Cart**
+4.1. The app shall save cart information locally on the device
+4.2. The app shall display cart information swiftly on the device
+4.3. The app shall render page update very fast upon change in cart information.
+4.4. The app shall ensure that cart information are easily accessible.
+4.5. The app shall render well on different device screen sizes showing all search results
 
-# Non-Functional Requirements for Orders
-1. The app shall provide a fast request-response time when fetching data from the backend 
-2. The app shall provide appropriate icons to indicate changes in processes
-3. The app shall render page update very fast upon change in order processing.
-4. The app shall ensure that orders are easily accessible.
-5. The app shall render well on different device screen sizes showing all search results
+5. **Orders**
+5.1. The app shall provide a fast request-response time when fetching data from the backend 
+5.2. The app shall provide appropriate icons to indicate changes in processes
+5.3. The app shall render page update very fast upon change in order processing.
+5.4. The app shall ensure that orders are easily accessible.
+5.5. The app shall render well on different device screen sizes showing all search results
 
 
 # [Change Management Plan](https://github.com/muscoff/GVSU-CIS641-ET/blob/main/artifacts/Change_Management_Plan.pdf)
@@ -96,6 +97,11 @@ Description of this section
 ![Use case Diagram](https://github.com/muscoff/GVSU-CIS641-ET/blob/main/artifacts/use-case.png)
 
 
+## Class Diagram Traceability
+| Artifact Name         | Requirement ID |
+| :-------------:       |:----------:    |
+| activity-diagram.png  | FR1, FR2       |
 
+![Activity Diagram](https://github.com/muscoff/GVSU-CIS641-ET/blob/main/artifacts/activity-diagram.png)
 
 
