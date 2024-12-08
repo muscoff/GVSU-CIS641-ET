@@ -33,3 +33,5 @@ This would start the app locally and the app can be accessed in the browser via 
 ### Backend Run Instructions
 After successfully running "npm install" in the backend folder to install all the required dependencies that the app needs, you can run the app by
 running the command "npm run dev" in the terminal to start the app locally in a development mode or you can also run "npm start" which would equally start the backend app.
+
+The backend api endpoint is running on "localhost:4000".
