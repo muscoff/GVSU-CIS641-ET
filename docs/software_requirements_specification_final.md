@@ -87,6 +87,15 @@ The app is simple although it functions like a normal big e-commerce app. The fi
 # Traceability links
 Description of this section
 
+## Use Case Diagram Traceability
+| Artifact ID | Artifact Name | Requirement ID |
+| :-------------: | :----------: | :----------: |
+| Login           | use-case.png | FR2          |
+| Register        | use-case.png | FR1          |
+
+![Use case Diagram](https://github.com/muscoff/GVSU-CIS641-ET/blob/main/artifacts/use-case.png)
+
+
 
 
 
