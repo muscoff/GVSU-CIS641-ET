@@ -100,8 +100,14 @@ Description of this section
 ## Class Diagram Traceability
 | Artifact Name         | Requirement ID |
 | :-------------:       |:----------:    |
-| activity-diagram.png  | FR1, FR2       |
+| class-diagram         | FR1, FR2       |
+
+![Class Diagram](https://github.com/muscoff/GVSU-CIS641-ET/blob/main/artifacts/class-diagram.png)
+
+
+
+| Artifact ID       | Artifact Name | Requirement ID |
+| :-------------:   | :----------:  | :----------:   |
+| activity-diagram.png | activity-diagram | FR1-2    |
 
 ![Activity Diagram](https://github.com/muscoff/GVSU-CIS641-ET/blob/main/artifacts/activity-diagram.png)
-
-
