@@ -111,3 +111,35 @@ Description of this section
 | activity-diagram.png | activity-diagram | FR1-2    |
 
 ![Activity Diagram](https://github.com/muscoff/GVSU-CIS641-ET/blob/main/artifacts/activity-diagram.png)
+
+
+
+
+# Software Artifacts
+
+## Object Diagram
+* [Object Diagram](https://github.com/muscoff/GVSU-CIS641-ET/blob/main/artifacts/object-diagram.png)
+
+## Add to Cart State machine
+* [Add to Cart State Machine](https://github.com/muscoff/GVSU-CIS641-ET/blob/main/artifacts/addToCartStateMachine.png)
+
+## Create Account State machine
+* [Create Account State Machine](https://github.com/muscoff/GVSU-CIS641-ET/blob/main/artifacts/createAccountStateMachine.png)
+
+## Login State machine
+* [Login State Machine](https://github.com/muscoff/GVSU-CIS641-ET/blob/main/artifacts/loginStateMachine.png)
+
+## Add Product Sequential Interaction
+* [Add Product Sequential Interaction](https://github.com/muscoff/GVSU-CIS641-ET/blob/main/artifacts/AddProductSequentialInteraction.png)
+
+## Add Product To Cart Sequential Interaction
+* [Add To Cart Sequential Interaction](https://github.com/muscoff/GVSU-CIS641-ET/blob/main/artifacts/AddProductToCartSequentialInteraction.png)
+
+## Register Sequential Interaction
+* [Register Sequential Interaction](https://github.com/muscoff/GVSU-CIS641-ET/blob/main/artifacts/RegisterSequentialInteraction.png)
+
+## Admin HCI
+* [Admin HCI](https://github.com/muscoff/GVSU-CIS641-ET/blob/main/artifacts/adminHCI.png)
+
+## User HCI
+* [User HCI](https://github.com/muscoff/GVSU-CIS641-ET/blob/main/artifacts/userHCI.png)
