@@ -1,0 +1,3363 @@
+button.add{
+    padding: 10px;
+}
+
+.login-form-card{
+    background-color: #fff;
+    border-radius: calc(3px * 1);
+    box-shadow: 0px 0px calc(5px * 1) rgba(0, 0, 0, 0.5);
+}
+
+.login-form-card form input{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: calc(3px * 1);
+    padding: calc(10px * 1) calc(15px * 1)
+}
+
+.item-card{
+    border: 1px solid #ccc;
+}
+
+.item-card:hover{
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.5);
+}
+
+.card{
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.5);
+}
+
+img.img{
+    width: 100%;
+}
+
+.login-bg{
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat;
+}
+
+.login-div{
+    border-radius: calc(2px * 1);
+}
+
+.grey-text{
+    color: rgb(45, 45, 45, 0.65)
+}
+
+label{
+    font-family: "Helvetica";
+}
+
+input[type=text], input[type=password]{
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: calc(2px * 1);
+    padding: calc(10px * 1) calc(15px * 1);
+}
+
+input[type=text]:focus, input[type=password]:focus{
+    background-color: #fff;
+}
+
+input[type=text].focus:focus{
+    box-shadow: 0px 0px 10px dodgerblue;
+}
+
+textarea{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: calc(2px * 1);
+}
+
+textarea:focus{
+    background-color: #fff;
+}
+
+textarea.comment{
+    height: 100px;
+}
+
+.cursor-progress{
+    cursor:progress;
+}
+
+.red-text{
+    color: rgb(218, 32, 55);
+}
+
+.red-bg{
+    background-color: rgb(218, 32, 55);
+}
+
+button.red-bg{
+    background-color: rgb(218, 32, 55);
+}
+
+button.login{
+    cursor: pointer;
+    width: 100%;
+    padding: calc(12px * 1) calc(15px * 1);
+    font-family: "AvenirNextBold";
+}
+
+button.logout{
+    background-color: #fff;
+    cursor: pointer;
+    padding: 2px;
+    font-family: "Helvetica";
+}
+
+button.logout:hover{
+    color: rgb(0, 50, 160);
+    padding: 2px 3px;
+}
+
+#sidemenubar{
+    display: block;
+    background-color: rgb(20,20,20, 0.9);
+    border-right: 3px solid #ccc;
+}
+
+.nav-name {
+    font-family: "AvenirNextRegular";
+    color: #fff;
+    padding: calc(15px * 1) calc(10px * 1);
+}
+
+a .nav-menu{
+    font-family: "AvenirNextRegular";
+    color: #fff;
+    padding: 15px 10px;
+}
+
+a .nav-menu:hover{
+    /* background-color: rgba(8, 8, 8, 0.2); */
+    background-color: rgb(0, 50, 160, 0.5);
+}
+
+a.active .nav-menu{
+    background-color: rgba(218, 32, 55, 0.8);
+}
+
+a.active .nav-menu:hover{
+    /* background-color: rgba(8, 8, 8, 0.4); */
+    background-color: rgb(0, 50, 160, 0.5);
+}
+
+.overflow-y-auto{
+    overflow-y: auto;
+}
+
+.truncate{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre;
+}
+
+.text-truncate{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.sidebar{
+    background-color: rgb(20,20,20, 0.9);
+    border-left: 3px solid #ccc;
+    top: 0;
+    right: -100%;
+    transition: all 0.1s ease-in-out;
+}
+
+.sidebar.active{
+    background-color: rgb(20,20,20, 0.9);
+    border-left: 3px solid #ccc;
+    top: 0;
+    right: 0%;
+    transition: all 0.1s ease-in-out;
+}
+
+#topnavicon{
+    display: none;
+    box-shadow: 0px 1px #ccc;
+}
+
+header.heading{
+    background-color: #fff;
+    box-shadow: 0px 0px 7px rgba(0,0,0,0.5);
+}
+
+.mainlayout{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 7px 0.5px rgba(0,0,0,0.2);
+}
+
+.mainlayout header{
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(255,255,255,0.9);
+}
+
+.mainlayout header button{
+    cursor: pointer;
+    color: #fff;
+    font-size: 0.8rem;
+    font-family: "AvenirNextBold";
+    padding: 6px 7px;
+    background-color:rgb(26, 106, 227);
+}
+
+.member-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+}
+
+.member-item:hover{
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+}
+
+input[type=search]{
+    font-family: "AvenirNextRegular";
+    width: 100%;
+    padding: 10px 13px;
+}
+
+input[type=date]{
+    font-family: "AvenirNextRegular";
+    width: 100%;
+    padding: 10px 13px;
+}
+
+.collection{
+    background-color: #fff;
+}
+
+.collection .collection-head{
+    font-family: "AvenirNextBold";
+    border-left: 4px solid rgb(218, 32, 55);
+    border-bottom: 4px solid rgb(55, 32, 55);
+}
+
+.collection .collection-head.no-effect{
+    border-left: none;
+    border-bottom: none;
+}
+
+.collection .collection-body{
+    font-family: "AvenirNextRegular";
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.1s ease-in-out;
+    scrollbar-width: thin !important;
+}
+
+.collection .collection-body.active{
+    animation-name: collectionBodyActive;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+}
+
+a.guide{
+    padding: calc(5px * 1);
+    border-radius: calc(3px * 1);
+    /* background-color: rgb(218, 32, 55); */
+    background-color: rgb(26, 106, 227);
+    color: #fff;
+}
+
+.assessments, .timelogs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding-left: 10px;
+    margin-bottom: calc(5px * 1);
+}
+
+.assessments::before, .timelogs::before{
+    content: '';
+    position: absolute;
+    left: 0px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    /* background-color: rgb(32, 218, 206); */
+    background-color: #000000;
+}
+
+input[type=number]{
+    padding: calc(8px * 1) calc(13px * 1);
+}
+
+@keyframes collectionBodyActive{
+    0%{max-height: 0; overflow: hidden}
+    100%{max-height: 1500px; overflow: auto}
+}
+
+.assignment-assigned{
+    border-left: 4px solid #1a6ae3 !important;
+}
+
+.assignment-assessed{
+    border-left: 4px solid #3eb592 !important;
+}
+
+.assigned-text{
+    color: #e1e1e1;
+    background-color: #1a6ae3;
+}
+
+.assessed-text{
+    background-color: #3eb592;
+}
+
+.overdue-text{
+    color: #e1e1e1;
+    background-color: rgb(218, 32, 55);
+}
+
+button.add-assignment{
+    cursor: pointer;
+    color: #fff;
+    font-size: 0.8rem;
+    font-family: "AvenirNextBold";
+    padding: 6px 7px;
+    background-color:rgb(26, 106, 227);
+}
+
+button.add-assessment{
+    cursor: pointer;
+    color: #000;
+    font-size: 0.8rem;
+    font-family: "AvenirNextBold";
+    padding: 6px 7px;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid #000;
+}
+
+.scrollbar-width-auto{
+    scrollbar-width: auto !important;
+}
+
+.scrollbar-width-none{
+    scrollbar-width: none !important;
+}
+
+.scrollbar-width-thin{
+    scrollbar-width: thin !important;
+}
+
+.scrollbar-width-inherit{
+    scrollbar-width: inherit !important;
+}
+
+.scrollbar-width-initial{
+    scrollbar-width: initial !important;
+}
+
+.score{
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.timeline{
+    border-left: 3px solid rgb(218, 32, 55);
+    padding: 10px;
+}
+
+.timeline .timeline-body{
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 10px;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.timeline .timeline-body::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    left: -17px;
+    background-color: #fff;
+    border: 1px solid rgb(218, 32, 55);
+}
+
+.thread{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px #ccc;
+}
+
+.thread-title{
+    padding: calc(10px * 1);
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 2px;
+    font-family: "AvenirNextBold";
+}
+
+.thread-messages{
+    min-height: 100px;
+    max-height: 400px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    margin-bottom: 10px;
+}
+
+.thread-message{
+    margin-bottom: 8px;
+}
+
+.thread-name{
+    text-transform: uppercase;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thread-name.red{
+    box-shadow: 0px 0px 1px rgb(218, 32, 55);
+}
+
+.thread-name.blue{
+    box-shadow: 0px 0px 1px rgb(26, 106, 227);
+}
+
+.thread-msg{
+    max-width: 90%;
+    border-radius: 3px;
+    padding: 10px;
+    position: relative;
+}
+
+.thread-msg.red{
+    position: relative;
+    box-shadow: 0px 0px 1px rgb(218, 32, 55);
+}
+
+.thread-msg.blue{
+    position: relative;
+    /* background-color: #fff; */
+    box-shadow: 0px 0px 1px rgb(26, 106, 227);
+    /* box-shadow: 0px 0px 1px rgb(0,0,0,0.5); */
+}
+
+/* .thread-msg.blue:before{
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent rgb(26, 106, 227) transparent transparent;
+    border-color: #fff #fff transparent transparent;
+    position: absolute;
+    border-width: 5px;
+    top: 0;
+    left: -7px;
+} */
+
+table.table tr td.bordered{
+    border: 1px solid #ccc
+}
+
+.calendar-box{
+    min-height: calc(110px * 1);
+    max-height: calc(110px * 1);
+    overflow-y: auto;
+    scrollbar-width: thin !important;
+}
+
+.c-element{
+    font-family: "AvenirNextBold";
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: calc(5px * 1);
+    background-color: #fff;
+}
+
+.c-element:hover{
+    cursor: pointer;
+}
+
+.c-element-holder{
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+    max-height: calc(150px * 1);
+    overflow-y: auto;
+    scrollbar-width: thin !important;
+}
+
+.c-element-item{
+    font-family: "AvenirNextBold";
+    padding: 10px;
+    background-color: #fff;
+}
+
+.c-element-item:hover{
+    cursor: pointer;
+    background-color: #bcd7ff;
+}
+
+.date-bg{
+    background-color: #bcd7ff;
+}
+
+.modal-flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-item{
+    padding: calc(10px * 1);
+}
+
+.modal-item:hover{
+    cursor: pointer;
+    background-color: #bcd7ff;
+}
+
+.round-element{
+    border-radius: 5px;
+}
+
+.marginBottom-5{
+    margin-bottom: calc(5px * 1);
+}
+
+.marginBottom-8{
+    margin-bottom: calc(8px * 1);
+}
+
+.marginTop-5{
+    margin-top: calc(5px * 1);
+}
+
+.marginTop-8{
+    margin-top: calc(8px * 1);
+}
+
+.marginRight-3{
+    margin-right: calc(3px * 1);
+}
+
+.marginRight-5{
+    margin-right: calc(5px * 1);
+}
+
+.marginRight-10{
+    margin-right: calc(10px * 1);
+}
+
+.border-border-radius{
+    border: calc(1px * 1) solid #ccc;
+    border-radius: calc(3px * 1);
+}
+
+/* Skeleton Class - Starts here */
+
+.skeleton{
+    background-color: rgb(199, 199, 199);
+    margin: 0.75rem 0;
+    border-radius: 0.25rem;
+}
+
+.skeleton.box{
+    height: 2.5rem;
+    margin-bottom: 0.1rem;
+}
+
+.skeleton.box-sm{
+    height: 1.875rem;
+    margin-bottom: 0.1rem;
+}
+
+.skeleton.title{
+    height: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.skeleton.text{
+    height: 0.75rem;
+}
+
+@keyframes pulse {
+    50%{opacity: .5;}
+}
+
+.animate-pulse{
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Skeleton Class - Ends here */
+
+@media screen and (max-width: 820px){
+    .sidebar{
+        background-color: rgb(20,20,20, 1);
+    }
+    
+    .sidebar.active{
+        background-color: rgb(20,20,20, 1);
+    }
+    #sidemenubar{
+        display: none;
+    }
+    #topnavicon{
+        display: block;
+    }
+
+    .table-div{
+        width: 300%;
+    }
+}
+
+@media screen and (min-width: 821px) and (max-width: 1120px){
+    .table-div{
+        width: 200%;
+        overflow: hidden;
+    }
+}
+
+/* Multiple font by 1.2 */
+@media screen and (max-width: 1366px) and (min-width: 1281px){
+    .login-div{
+        border-radius: calc(2px * 1.2);
+    }
+    
+    input[type=text], input[type=password]{
+        border: 1px solid #ccc;
+        border-radius: calc(2px * 1.2);
+        padding: calc(10px * 1.2) calc(15px * 1.2);
+    }
+    
+    input[type=text].focus:focus{
+        box-shadow: 0px 0px calc(10px * 1.2) dodgerblue;
+    }
+    
+    textarea{
+        border: calc(1px * 1.2) solid #ccc;
+        border-radius: calc(2px * 1.2);
+    }
+    
+    textarea.comment{
+        height: calc(100px * 1.2);
+    }
+    
+    button.login{
+        padding: calc(12px * 1.2) calc(15px * 1.2);
+    }
+    
+    button.logout{
+        padding: calc(2px * 1.2);
+    }
+    
+    button.logout:hover{
+        padding: calc(2px * 1.2) calc(3px * 1.2);
+    }
+    
+    #sidemenubar{
+        border-right: calc(3px * 1.2) solid #ccc;
+    }
+    
+    .nav-name {
+        padding: calc(15px * 1.2) calc(10px * 1.2);
+    }
+    
+    a .nav-menu{
+        padding: calc(15px * 1.2) calc(10px * 1.2);
+    }
+    
+    .sidebar{
+        border-left: calc(3px * 1.2) solid #ccc;
+    }
+    
+    .sidebar.active{
+        border-left: calc(3px * 1.2) solid #ccc;
+    }
+    
+    #topnavicon{
+        box-shadow: 0px calc(1px * 1.2) #ccc;
+    }
+    
+    header.heading{
+        box-shadow: 0px 0px calc(7px * 1.2) rgba(0,0,0,0.5);
+    }
+    
+    .mainlayout{
+        border-radius: calc(5px * 1.2);
+        box-shadow: 0 0 calc(7px * 1.2) calc(0.5px * 1.2) rgba(0,0,0,0.2);
+    }
+    
+    .mainlayout header{
+        border-bottom: calc(1px * 1.2) solid #ccc;
+        box-shadow: 0 0 calc(10px * 1.2) rgba(255,255,255,0.9);
+    }
+    
+    .mainlayout header button{
+        font-size: calc(0.8rem * 1.2);
+        padding: calc(6px * 1.2) calc(7px * 1.2);
+    }
+    
+    .member-item:hover{
+        box-shadow: 0px calc(1px * 1.2) calc(3px * 1.2) rgba(0,0,0,0.5);
+    }
+    
+    input[type=search]{
+        padding: calc(10px * 1.2) calc(13px * 1.2);
+    }
+    
+    input[type=date]{
+        padding: calc(10px * 1.2) calc(13px * 1.2);
+    }
+    
+    .collection .collection-head{
+        border-left: calc(4px * 1.2) solid rgb(218, 32, 55);
+        border-bottom: calc(4px * 1.2) solid rgb(55, 32, 55);
+    }
+    
+    a.guide{
+        padding: calc(5px * 1.2);
+        border-radius: calc(3px * 1.2);
+    }
+    
+    .assessments, .timelogs{
+        padding-left: calc(10px * 1.2);
+        margin-bottom: calc(5px * 1.2);
+    }
+    
+    .assessments::before, .timelogs::before{
+        width: calc(6px * 1.2);
+        height: calc(6px * 1.2);
+        border-radius: calc(50px * 1.2);
+    }
+    
+    input[type=number]{
+        padding: calc(8px * 1.2) calc(13px * 1.2);
+    }
+    
+    @keyframes collectionBodyActive{
+        0%{max-height: 0; overflow: hidden}
+        100%{max-height: calc(1500px * 1.2); overflow: auto}
+    }
+    
+    .assignment-assigned{
+        border-left: calc(4px * 1.2) solid #1a6ae3 !important;
+    }
+    
+    .assignment-assessed{
+        border-left: calc(4px * 1.2) solid #3eb592 !important;
+    }
+    
+    button.add-assignment{
+        font-size: calc(0.8rem * 1.2);
+        padding: calc(6px * 1.2) calc(7px * 1.2);
+    }
+    
+    button.add-assessment{
+        font-size: calc(0.8rem * 1.2);
+        padding: calc(6px * 1.2) calc(7px * 1.2);
+        border: calc(1px * 1.2) solid #000;
+    }
+    
+    .score{
+        width: calc(20px * 1.2);
+        height: calc(20px * 1.2);
+        border-radius: calc(10px * 1.2);
+    }
+    
+    .timeline{
+        border-left: calc(3px * 1.2) solid rgb(218, 32, 55);
+        padding: calc(10px * 1.2);
+    }
+    
+    .timeline .timeline-body{
+        border: calc(1px * 1.2) solid #ccc;
+        padding: calc(10px * 1.2);
+        margin-top: calc(10px * 1.2);
+        margin-bottom: calc(20px * 1.2);
+    }
+    
+    .timeline .timeline-body::before{
+        width: calc(10px * 1.2);
+        height: calc(10px * 1.2);
+        left: calc(-17px * 1.2);
+        border: calc(1px * 1.2) solid rgb(218, 32, 55);
+    }
+    
+    .thread{
+        border-radius: calc(5px * 1.2);
+        box-shadow: 0px 0px calc(3px * 1.2) #ccc;
+    }
+    
+    .thread-title{
+        padding: calc(10px * 1.2);
+        border-bottom: calc(1px * 1.2) solid #ccc;
+        margin-bottom: calc(2px * 1.2);
+    }
+    
+    .thread-messages{
+        min-height: calc(100px * 1.2);
+        max-height: calc(400px * 1.2);
+        margin-bottom: calc(10px * 1.2);
+    }
+    
+    .thread-message{
+        margin-bottom: calc(8px * 1.2);
+    }
+    
+    .thread-name{
+        width: calc(25px * 1.2);
+        height: calc(25px * 1.2);
+    }
+    
+    .thread-name.red{
+        box-shadow: 0px 0px calc(1px * 1.2) rgb(218, 32, 55);
+    }
+    
+    .thread-name.blue{
+        box-shadow: 0px 0px calc(1px * 1.2) rgb(26, 106, 227);
+    }
+    
+    .thread-msg{
+        border-radius: calc(3px * 1.2);
+        padding: calc(10px * 1.2);
+    }
+    
+    .thread-msg.red{
+        box-shadow: 0px 0px calc(1px * 1.2) rgb(218, 32, 55);
+    }
+    
+    .thread-msg.blue{
+        box-shadow: 0px 0px calc(1px * 1.2) rgb(26, 106, 227);
+    }
+    
+    table.table tr td.bordered{
+        border: calc(1px * 1.2) solid #ccc
+    }
+    
+    .calendar-box{
+        min-height: calc(110px * 1.2);
+        max-height: calc(110px * 1.2);
+    }
+    
+    .c-element{
+        padding: calc(10px * 1.2);
+        border: calc(1px * 1.2) solid #ccc;
+        border-radius: calc(5px * 1.2);
+    }
+    
+    .c-element-holder{
+        box-shadow: 0px 0px calc(3px * 1.2) rgba(0, 0, 0, 0.5);
+        max-height: calc(150px * 1.2);
+    }
+    
+    .c-element-item{
+        padding: calc(10px * 1.2);
+    }
+    
+    .modal-item{
+        padding: calc(10px * 1.2);
+    }
+    
+    .round-element{
+        border-radius: calc(5px * 1.2);
+    }
+
+    .marginBottom-5{
+        margin-bottom: calc(5px * 1.2);
+    }
+
+    .marginBottom-8{
+        margin-bottom: calc(8px * 1.2);
+    }
+
+    .marginRight-3{
+        margin-right: calc(3px * 1.2);
+    }
+
+    .marginRight-5{
+        margin-right: calc(5px * 1.2);
+    }
+
+    .marginTop-5{
+        margin-top: calc(5px * 1.2);
+    }
+
+    .marginTop-8{
+        margin-top: calc(8px * 1.2);
+    }
+
+    .marginRight-10{
+        margin-right: calc(10px * 1.2);
+    }
+
+    .border-border-radius{
+        border: calc(1px * 1.2) solid #ccc;
+        border-radius: calc(3px * 1.2);
+    }
+
+    .skeleton{
+        margin: calc(0.75rem * 1.2) 0;
+        border-radius: calc(0.25rem * 1.2);
+    }
+    
+    .skeleton.box{
+        height: calc(2.5rem * 1.2);
+        margin-bottom: calc(0.1rem * 1.2);
+    }
+    
+    .skeleton.box-sm{
+        height: calc(1.875rem * 1.2);
+        margin-bottom: calc(0.1rem * 1.2);
+    }
+    
+    .skeleton.title{
+        height: calc(1.25rem * 1.2);
+        margin-bottom: calc(1rem * 1.2);
+    }
+    
+    .skeleton.text{
+        height: calc(0.75rem * 1.2);
+    }
+}
+
+/* Multiple font by 1.25 */
+@media screen and (max-width: 1643px) and (min-width: 1367px){
+    .login-div{
+        border-radius: calc(2px * 1.25);
+    }
+    
+    input[type=text], input[type=password]{
+        border: 1px solid #ccc;
+        border-radius: calc(2px * 1.25);
+        padding: calc(10px * 1.25) calc(15px * 1.25);
+    }
+    
+    input[type=text].focus:focus{
+        box-shadow: 0px 0px calc(10px * 1.25) dodgerblue;
+    }
+    
+    textarea{
+        border: calc(1px * 1.25) solid #ccc;
+        border-radius: calc(2px * 1.25);
+    }
+    
+    textarea.comment{
+        height: calc(100px * 1.25);
+    }
+    
+    button.login{
+        padding: calc(12px * 1.25) calc(15px * 1.25);
+    }
+    
+    button.logout{
+        padding: calc(2px * 1.25);
+    }
+    
+    button.logout:hover{
+        padding: calc(2px * 1.25) calc(3px * 1.25);
+    }
+    
+    #sidemenubar{
+        border-right: calc(3px * 1.25) solid #ccc;
+    }
+    
+    .nav-name {
+        padding: calc(15px * 1.25) calc(10px * 1.25);
+    }
+    
+    a .nav-menu{
+        padding: calc(15px * 1.25) calc(10px * 1.25);
+    }
+    
+    .sidebar{
+        border-left: calc(3px * 1.25) solid #ccc;
+    }
+    
+    .sidebar.active{
+        border-left: calc(3px * 1.25) solid #ccc;
+    }
+    
+    #topnavicon{
+        box-shadow: 0px calc(1px * 1.25) #ccc;
+    }
+    
+    header.heading{
+        box-shadow: 0px 0px calc(7px * 1.25) rgba(0,0,0,0.5);
+    }
+    
+    .mainlayout{
+        border-radius: calc(5px * 1.25);
+        box-shadow: 0 0 calc(7px * 1.25) calc(0.5px * 1.25) rgba(0,0,0,0.2);
+    }
+    
+    .mainlayout header{
+        border-bottom: calc(1px * 1.25) solid #ccc;
+        box-shadow: 0 0 calc(10px * 1.25) rgba(255,255,255,0.9);
+    }
+    
+    .mainlayout header button{
+        font-size: calc(0.8rem * 1.25);
+        padding: calc(6px * 1.25) calc(7px * 1.25);
+    }
+    
+    .member-item:hover{
+        box-shadow: 0px calc(1px * 1.25) calc(3px * 1.25) rgba(0,0,0,0.5);
+    }
+    
+    input[type=search]{
+        padding: calc(10px * 1.25) calc(13px * 1.25);
+    }
+    
+    input[type=date]{
+        padding: calc(10px * 1.25) calc(13px * 1.25);
+    }
+    
+    .collection .collection-head{
+        border-left: calc(4px * 1.25) solid rgb(218, 32, 55);
+        border-bottom: calc(4px * 1.25) solid rgb(55, 32, 55);
+    }
+    
+    a.guide{
+        padding: calc(5px * 1.25);
+        border-radius: calc(3px * 1.25);
+    }
+    
+    .assessments, .timelogs{
+        padding-left: calc(10px * 1.25);
+        margin-bottom: calc(5px * 1.25);
+    }
+    
+    .assessments::before, .timelogs::before{
+        width: calc(6px * 1.25);
+        height: calc(6px * 1.25);
+        border-radius: calc(50px * 1.25);
+    }
+    
+    input[type=number]{
+        padding: calc(8px * 1.25) calc(13px * 1.25);
+    }
+    
+    @keyframes collectionBodyActive{
+        0%{max-height: 0; overflow: hidden}
+        100%{max-height: calc(1500px * 1.25); overflow: auto}
+    }
+    
+    .assignment-assigned{
+        border-left: calc(4px * 1.25) solid #1a6ae3 !important;
+    }
+    
+    .assignment-assessed{
+        border-left: calc(4px * 1.25) solid #3eb592 !important;
+    }
+    
+    button.add-assignment{
+        font-size: calc(0.8rem * 1.25);
+        padding: calc(6px * 1.25) calc(7px * 1.25);
+    }
+    
+    button.add-assessment{
+        font-size: calc(0.8rem * 1.25);
+        padding: calc(6px * 1.25) calc(7px * 1.25);
+        border: calc(1px * 1.25) solid #000;
+    }
+    
+    .score{
+        width: calc(20px * 1.25);
+        height: calc(20px * 1.25);
+        border-radius: calc(10px * 1.25);
+    }
+    
+    .timeline{
+        border-left: calc(3px * 1.25) solid rgb(218, 32, 55);
+        padding: calc(10px * 1.25);
+    }
+    
+    .timeline .timeline-body{
+        border: calc(1px * 1.25) solid #ccc;
+        padding: calc(10px * 1.25);
+        margin-top: calc(10px * 1.25);
+        margin-bottom: calc(20px * 1.25);
+    }
+    
+    .timeline .timeline-body::before{
+        width: calc(10px * 1.25);
+        height: calc(10px * 1.25);
+        left: calc(-17px * 1.25);
+        border: calc(1px * 1.25) solid rgb(218, 32, 55);
+    }
+    
+    .thread{
+        border-radius: calc(5px * 1.25);
+        box-shadow: 0px 0px calc(3px * 1.25) #ccc;
+    }
+    
+    .thread-title{
+        padding: calc(10px * 1.25);
+        border-bottom: calc(1px * 1.25) solid #ccc;
+        margin-bottom: calc(2px * 1.25);
+    }
+    
+    .thread-messages{
+        min-height: calc(100px * 1.25);
+        max-height: calc(400px * 1.25);
+        margin-bottom: calc(10px * 1.25);
+    }
+    
+    .thread-message{
+        margin-bottom: calc(8px * 1.25);
+    }
+    
+    .thread-name{
+        width: calc(25px * 1.25);
+        height: calc(25px * 1.25);
+    }
+    
+    .thread-name.red{
+        box-shadow: 0px 0px calc(1px * 1.25) rgb(218, 32, 55);
+    }
+    
+    .thread-name.blue{
+        box-shadow: 0px 0px calc(1px * 1.25) rgb(26, 106, 227);
+    }
+    
+    .thread-msg{
+        border-radius: calc(3px * 1.25);
+        padding: calc(10px * 1.25);
+    }
+    
+    .thread-msg.red{
+        box-shadow: 0px 0px calc(1px * 1.25) rgb(218, 32, 55);
+    }
+    
+    .thread-msg.blue{
+        box-shadow: 0px 0px calc(1px * 1.25) rgb(26, 106, 227);
+    }
+    
+    table.table tr td.bordered{
+        border: calc(1px * 1.25) solid #ccc
+    }
+    
+    .calendar-box{
+        min-height: calc(110px * 1.25);
+        max-height: calc(110px * 1.25);
+    }
+    
+    .c-element{
+        padding: calc(10px * 1.25);
+        border: calc(1px * 1.25) solid #ccc;
+        border-radius: calc(5px * 1.25);
+    }
+    
+    .c-element-holder{
+        box-shadow: 0px 0px calc(3px * 1.25) rgba(0, 0, 0, 0.5);
+        max-height: calc(150px * 1.25);
+    }
+    
+    .c-element-item{
+        padding: calc(10px * 1.25);
+    }
+    
+    .modal-item{
+        padding: calc(10px * 1.25);
+    }
+    
+    .round-element{
+        border-radius: calc(5px * 1.25);
+    }
+
+    .marginBottom-5{
+        margin-bottom: calc(5px * 1.25);
+    }
+
+    .marginBottom-8{
+        margin-bottom: calc(8px * 1.25);
+    }
+
+    .marginTop-5{
+        margin-top: calc(5px * 1.25);
+    }
+    
+    .marginTop-8{
+        margin-top: calc(8px * 1.25);
+    }
+
+    .marginRight-3{
+        margin-right: calc(3px * 1.25);
+    }
+
+    .marginRight-5{
+        margin-right: calc(5px * 1.25);
+    }
+
+    .marginRight-10{
+        margin-right: calc(10px * 1.25);
+    }
+
+    .border-border-radius{
+        border: calc(1px * 1.25) solid #ccc;
+        border-radius: calc(3px * 1.25);
+    }
+
+    .skeleton{
+        margin: calc(0.75rem * 1.25) 0;
+        border-radius: calc(0.25rem * 1.25);
+    }
+    
+    .skeleton.box{
+        height: calc(2.5rem * 1.25);
+        margin-bottom: calc(0.1rem * 1.25);
+    }
+    
+    .skeleton.box-sm{
+        height: calc(1.875rem * 1.25);
+        margin-bottom: calc(0.1rem * 1.25);
+    }
+    
+    .skeleton.title{
+        height: calc(1.25rem * 1.25);
+        margin-bottom: calc(1rem * 1.25);
+    }
+    
+    .skeleton.text{
+        height: calc(0.75rem * 1.25);
+    }
+}
+
+/* Multiple font by 1.3 */
+@media screen and (max-width: 1920px) and (min-width: 1643px){
+    .login-div{
+        border-radius: calc(2px * 1.3);
+    }
+    
+    input[type=text], input[type=password]{
+        border: 1px solid #ccc;
+        border-radius: calc(2px * 1.3);
+        padding: calc(10px * 1.3) calc(15px * 1.3);
+    }
+    
+    input[type=text].focus:focus{
+        box-shadow: 0px 0px calc(10px * 1.3) dodgerblue;
+    }
+    
+    textarea{
+        border: calc(1px * 1.3) solid #ccc;
+        border-radius: calc(2px * 1.3);
+    }
+    
+    textarea.comment{
+        height: calc(100px * 1.3);
+    }
+    
+    button.login{
+        padding: calc(12px * 1.3) calc(15px * 1.3);
+    }
+    
+    button.logout{
+        padding: calc(2px * 1.3);
+    }
+    
+    button.logout:hover{
+        padding: calc(2px * 1.3) calc(3px * 1.3);
+    }
+    
+    #sidemenubar{
+        border-right: calc(3px * 1.3) solid #ccc;
+    }
+    
+    .nav-name {
+        padding: calc(15px * 1.3) calc(10px * 1.3);
+    }
+    
+    a .nav-menu{
+        padding: calc(15px * 1.3) calc(10px * 1.3);
+    }
+    
+    .sidebar{
+        border-left: calc(3px * 1.3) solid #ccc;
+    }
+    
+    .sidebar.active{
+        border-left: calc(3px * 1.3) solid #ccc;
+    }
+    
+    #topnavicon{
+        box-shadow: 0px calc(1px * 1.3) #ccc;
+    }
+    
+    header.heading{
+        box-shadow: 0px 0px calc(7px * 1.3) rgba(0,0,0,0.5);
+    }
+    
+    .mainlayout{
+        border-radius: calc(5px * 1.3);
+        box-shadow: 0 0 calc(7px * 1.3) calc(0.5px * 1.3) rgba(0,0,0,0.2);
+    }
+    
+    .mainlayout header{
+        border-bottom: calc(1px * 1.3) solid #ccc;
+        box-shadow: 0 0 calc(10px * 1.3) rgba(255,255,255,0.9);
+    }
+    
+    .mainlayout header button{
+        font-size: calc(0.8rem * 1.3);
+        padding: calc(6px * 1.3) calc(7px * 1.3);
+    }
+    
+    .member-item:hover{
+        box-shadow: 0px calc(1px * 1.3) calc(3px * 1.3) rgba(0,0,0,0.5);
+    }
+    
+    input[type=search]{
+        padding: calc(10px * 1.3) calc(13px * 1.3);
+    }
+    
+    input[type=date]{
+        padding: calc(10px * 1.3) calc(13px * 1.3);
+    }
+    
+    .collection .collection-head{
+        border-left: calc(4px * 1.3) solid rgb(218, 32, 55);
+        border-bottom: calc(4px * 1.3) solid rgb(55, 32, 55);
+    }
+    
+    a.guide{
+        padding: calc(5px * 1.3);
+        border-radius: calc(3px * 1.3);
+    }
+    
+    .assessments, .timelogs{
+        padding-left: calc(10px * 1.3);
+        margin-bottom: calc(5px * 1.3);
+    }
+    
+    .assessments::before, .timelogs::before{
+        width: calc(6px * 1.3);
+        height: calc(6px * 1.3);
+        border-radius: calc(50px * 1.3);
+    }
+    
+    input[type=number]{
+        padding: calc(8px * 1.3) calc(13px * 1.3);
+    }
+    
+    @keyframes collectionBodyActive{
+        0%{max-height: 0; overflow: hidden}
+        100%{max-height: calc(1500px * 1.3); overflow: auto}
+    }
+    
+    .assignment-assigned{
+        border-left: calc(4px * 1.3) solid #1a6ae3 !important;
+    }
+    
+    .assignment-assessed{
+        border-left: calc(4px * 1.3) solid #3eb592 !important;
+    }
+    
+    button.add-assignment{
+        font-size: calc(0.8rem * 1.3);
+        padding: calc(6px * 1.3) calc(7px * 1.3);
+    }
+    
+    button.add-assessment{
+        font-size: calc(0.8rem * 1.3);
+        padding: calc(6px * 1.3) calc(7px * 1.3);
+        border: calc(1px * 1.3) solid #000;
+    }
+    
+    .score{
+        width: calc(20px * 1.3);
+        height: calc(20px * 1.3);
+        border-radius: calc(10px * 1.3);
+    }
+    
+    .timeline{
+        border-left: calc(3px * 1.3) solid rgb(218, 32, 55);
+        padding: calc(10px * 1.3);
+    }
+    
+    .timeline .timeline-body{
+        border: calc(1px * 1.3) solid #ccc;
+        padding: calc(10px * 1.3);
+        margin-top: calc(10px * 1.3);
+        margin-bottom: calc(20px * 1.3);
+    }
+    
+    .timeline .timeline-body::before{
+        width: calc(10px * 1.3);
+        height: calc(10px * 1.3);
+        left: calc(-17px * 1.3);
+        border: calc(1px * 1.3) solid rgb(218, 32, 55);
+    }
+    
+    .thread{
+        border-radius: calc(5px * 1.3);
+        box-shadow: 0px 0px calc(3px * 1.3) #ccc;
+    }
+    
+    .thread-title{
+        padding: calc(10px * 1.3);
+        border-bottom: calc(1px * 1.3) solid #ccc;
+        margin-bottom: calc(2px * 1.3);
+    }
+    
+    .thread-messages{
+        min-height: calc(100px * 1.3);
+        max-height: calc(400px * 1.3);
+        margin-bottom: calc(10px * 1.3);
+    }
+    
+    .thread-message{
+        margin-bottom: calc(8px * 1.3);
+    }
+    
+    .thread-name{
+        width: calc(25px * 1.3);
+        height: calc(25px * 1.3);
+    }
+    
+    .thread-name.red{
+        box-shadow: 0px 0px calc(1px * 1.3) rgb(218, 32, 55);
+    }
+    
+    .thread-name.blue{
+        box-shadow: 0px 0px calc(1px * 1.3) rgb(26, 106, 227);
+    }
+    
+    .thread-msg{
+        border-radius: calc(3px * 1.3);
+        padding: calc(10px * 1.3);
+    }
+    
+    .thread-msg.red{
+        box-shadow: 0px 0px calc(1px * 1.3) rgb(218, 32, 55);
+    }
+    
+    .thread-msg.blue{
+        box-shadow: 0px 0px calc(1px * 1.3) rgb(26, 106, 227);
+    }
+    
+    table.table tr td.bordered{
+        border: calc(1px * 1.3) solid #ccc
+    }
+    
+    .calendar-box{
+        min-height: calc(110px * 1.3);
+        max-height: calc(110px * 1.3);
+    }
+    
+    .c-element{
+        padding: calc(10px * 1.3);
+        border: calc(1px * 1.3) solid #ccc;
+        border-radius: calc(5px * 1.3);
+    }
+    
+    .c-element-holder{
+        box-shadow: 0px 0px calc(3px * 1.3) rgba(0, 0, 0, 0.5);
+        max-height: calc(150px * 1.3);
+    }
+    
+    .c-element-item{
+        padding: calc(10px * 1.3);
+    }
+    
+    .modal-item{
+        padding: calc(10px * 1.3);
+    }
+    
+    .round-element{
+        border-radius: calc(5px * 1.3);
+    }
+
+    .marginBottom-5{
+        margin-bottom: calc(5px * 1.3);
+    }
+
+    .marginBottom-8{
+        margin-bottom: calc(8px * 1.3);
+    }
+
+    .marginTop-5{
+        margin-top: calc(5px * 1.3);
+    }
+    
+    .marginTop-8{
+        margin-top: calc(8px * 1.3);
+    }
+
+    .marginRight-3{
+        margin-right: calc(3px * 1.3);
+    }
+
+    .marginRight-5{
+        margin-right: calc(5px * 1.3);
+    }
+
+    .marginRight-10{
+        margin-right: calc(10px * 1.3);
+    }
+
+    .border-border-radius{
+        border: calc(1px * 1.3) solid #ccc;
+        border-radius: calc(3px * 1.3);
+    }
+
+    .skeleton{
+        margin: calc(0.75rem * 1.3) 0;
+        border-radius: calc(0.25rem * 1.3);
+    }
+    
+    .skeleton.box{
+        height: calc(2.5rem * 1.3);
+        margin-bottom: calc(0.1rem * 1.3);
+    }
+    
+    .skeleton.box-sm{
+        height: calc(1.875rem * 1.3);
+        margin-bottom: calc(0.1rem * 1.3);
+    }
+    
+    .skeleton.title{
+        height: calc(1.25rem * 1.3);
+        margin-bottom: calc(1rem * 1.3);
+    }
+    
+    .skeleton.text{
+        height: calc(0.75rem * 1.3);
+    }
+}
+
+/* Multiple font by 1.35 */
+@media screen and (max-width: 2048px) and (min-width: 1920px){
+    .login-div{
+        border-radius: calc(2px * 1.35);
+    }
+    
+    input[type=text], input[type=password]{
+        border: 1px solid #ccc;
+        border-radius: calc(2px * 1.35);
+        padding: calc(10px * 1.35) calc(15px * 1.35);
+    }
+    
+    input[type=text].focus:focus{
+        box-shadow: 0px 0px calc(10px * 1.35) dodgerblue;
+    }
+    
+    textarea{
+        border: calc(1px * 1.35) solid #ccc;
+        border-radius: calc(2px * 1.35);
+    }
+    
+    textarea.comment{
+        height: calc(100px * 1.35);
+    }
+    
+    button.login{
+        padding: calc(12px * 1.35) calc(15px * 1.35);
+    }
+    
+    button.logout{
+        padding: calc(2px * 1.35);
+    }
+    
+    button.logout:hover{
+        padding: calc(2px * 1.35) calc(3px * 1.35);
+    }
+    
+    #sidemenubar{
+        border-right: calc(3px * 1.35) solid #ccc;
+    }
+    
+    .nav-name {
+        padding: calc(15px * 1.35) calc(10px * 1.35);
+    }
+    
+    a .nav-menu{
+        padding: calc(15px * 1.35) calc(10px * 1.35);
+    }
+    
+    .sidebar{
+        border-left: calc(3px * 1.35) solid #ccc;
+    }
+    
+    .sidebar.active{
+        border-left: calc(3px * 1.35) solid #ccc;
+    }
+    
+    #topnavicon{
+        box-shadow: 0px calc(1px * 1.35) #ccc;
+    }
+    
+    header.heading{
+        box-shadow: 0px 0px calc(7px * 1.35) rgba(0,0,0,0.5);
+    }
+    
+    .mainlayout{
+        border-radius: calc(5px * 1.35);
+        box-shadow: 0 0 calc(7px * 1.35) calc(0.5px * 1.35) rgba(0,0,0,0.2);
+    }
+    
+    .mainlayout header{
+        border-bottom: calc(1px * 1.35) solid #ccc;
+        box-shadow: 0 0 calc(10px * 1.35) rgba(255,255,255,0.9);
+    }
+    
+    .mainlayout header button{
+        font-size: calc(0.8rem * 1.35);
+        padding: calc(6px * 1.35) calc(7px * 1.35);
+    }
+    
+    .member-item:hover{
+        box-shadow: 0px calc(1px * 1.35) calc(3px * 1.35) rgba(0,0,0,0.5);
+    }
+    
+    input[type=search]{
+        padding: calc(10px * 1.35) calc(13px * 1.35);
+    }
+    
+    input[type=date]{
+        padding: calc(10px * 1.35) calc(13px * 1.35);
+    }
+    
+    .collection .collection-head{
+        border-left: calc(4px * 1.35) solid rgb(218, 32, 55);
+        border-bottom: calc(4px * 1.35) solid rgb(55, 32, 55);
+    }
+    
+    a.guide{
+        padding: calc(5px * 1.35);
+        border-radius: calc(3px * 1.35);
+    }
+    
+    .assessments, .timelogs{
+        padding-left: calc(10px * 1.35);
+        margin-bottom: calc(5px * 1.35);
+    }
+    
+    .assessments::before, .timelogs::before{
+        width: calc(6px * 1.35);
+        height: calc(6px * 1.35);
+        border-radius: calc(50px * 1.35);
+    }
+    
+    input[type=number]{
+        padding: calc(8px * 1.35) calc(13px * 1.35);
+    }
+    
+    @keyframes collectionBodyActive{
+        0%{max-height: 0; overflow: hidden}
+        100%{max-height: calc(1500px * 1.35); overflow: auto}
+    }
+    
+    .assignment-assigned{
+        border-left: calc(4px * 1.35) solid #1a6ae3 !important;
+    }
+    
+    .assignment-assessed{
+        border-left: calc(4px * 1.35) solid #3eb592 !important;
+    }
+    
+    button.add-assignment{
+        font-size: calc(0.8rem * 1.35);
+        padding: calc(6px * 1.35) calc(7px * 1.35);
+    }
+    
+    button.add-assessment{
+        font-size: calc(0.8rem * 1.35);
+        padding: calc(6px * 1.35) calc(7px * 1.35);
+        border: calc(1px * 1.35) solid #000;
+    }
+    
+    .score{
+        width: calc(20px * 1.35);
+        height: calc(20px * 1.35);
+        border-radius: calc(10px * 1.35);
+    }
+    
+    .timeline{
+        border-left: calc(3px * 1.35) solid rgb(218, 32, 55);
+        padding: calc(10px * 1.35);
+    }
+    
+    .timeline .timeline-body{
+        border: calc(1px * 1.35) solid #ccc;
+        padding: calc(10px * 1.35);
+        margin-top: calc(10px * 1.35);
+        margin-bottom: calc(20px * 1.35);
+    }
+    
+    .timeline .timeline-body::before{
+        width: calc(10px * 1.35);
+        height: calc(10px * 1.35);
+        left: calc(-17px * 1.35);
+        border: calc(1px * 1.35) solid rgb(218, 32, 55);
+    }
+    
+    .thread{
+        border-radius: calc(5px * 1.35);
+        box-shadow: 0px 0px calc(3px * 1.35) #ccc;
+    }
+    
+    .thread-title{
+        padding: calc(10px * 1.35);
+        border-bottom: calc(1px * 1.35) solid #ccc;
+        margin-bottom: calc(2px * 1.35);
+    }
+    
+    .thread-messages{
+        min-height: calc(100px * 1.35);
+        max-height: calc(400px * 1.35);
+        margin-bottom: calc(10px * 1.35);
+    }
+    
+    .thread-message{
+        margin-bottom: calc(8px * 1.35);
+    }
+    
+    .thread-name{
+        width: calc(25px * 1.35);
+        height: calc(25px * 1.35);
+    }
+    
+    .thread-name.red{
+        box-shadow: 0px 0px calc(1px * 1.35) rgb(218, 32, 55);
+    }
+    
+    .thread-name.blue{
+        box-shadow: 0px 0px calc(1px * 1.35) rgb(26, 106, 227);
+    }
+    
+    .thread-msg{
+        border-radius: calc(3px * 1.35);
+        padding: calc(10px * 1.35);
+    }
+    
+    .thread-msg.red{
+        box-shadow: 0px 0px calc(1px * 1.35) rgb(218, 32, 55);
+    }
+    
+    .thread-msg.blue{
+        box-shadow: 0px 0px calc(1px * 1.35) rgb(26, 106, 227);
+    }
+    
+    table.table tr td.bordered{
+        border: calc(1px * 1.35) solid #ccc
+    }
+    
+    .calendar-box{
+        min-height: calc(110px * 1.35);
+        max-height: calc(110px * 1.35);
+    }
+    
+    .c-element{
+        padding: calc(10px * 1.35);
+        border: calc(1px * 1.35) solid #ccc;
+        border-radius: calc(5px * 1.35);
+    }
+    
+    .c-element-holder{
+        box-shadow: 0px 0px calc(3px * 1.35) rgba(0, 0, 0, 0.5);
+        max-height: calc(150px * 1.35);
+    }
+    
+    .c-element-item{
+        padding: calc(10px * 1.35);
+    }
+    
+    .modal-item{
+        padding: calc(10px * 1.35);
+    }
+    
+    .round-element{
+        border-radius: calc(5px * 1.35);
+    }
+
+    .marginBottom-5{
+        margin-bottom: calc(5px * 1.35);
+    }
+
+    .marginBottom-8{
+        margin-bottom: calc(8px * 1.35);
+    }
+
+    .marginTop-5{
+        margin-top: calc(5px * 1.35);
+    }
+    
+    .marginTop-8{
+        margin-top: calc(8px * 1.35);
+    }
+
+    .marginRight-3{
+        margin-right: calc(3px * 1.35);
+    }
+
+    .marginRight-5{
+        margin-right: calc(5px * 1.35);
+    }
+
+    .marginRight-10{
+        margin-right: calc(10px * 1.35);
+    }
+
+    .border-border-radius{
+        border: calc(1px * 1.35) solid #ccc;
+        border-radius: calc(3px * 1.35);
+    }
+
+    .skeleton{
+        margin: calc(0.75rem * 1.35) 0;
+        border-radius: calc(0.25rem * 1.35);
+    }
+    
+    .skeleton.box{
+        height: calc(2.5rem * 1.35);
+        margin-bottom: calc(0.1rem * 1.35);
+    }
+    
+    .skeleton.box-sm{
+        height: calc(1.875rem * 1.35);
+        margin-bottom: calc(0.1rem * 1.35);
+    }
+    
+    .skeleton.title{
+        height: calc(1.25rem * 1.35);
+        margin-bottom: calc(1rem * 1.35);
+    }
+    
+    .skeleton.text{
+        height: calc(0.75rem * 1.35);
+    }
+}
+
+/* Multiple font by 1.4 */
+@media screen and (max-width: 2176px) and (min-width: 2048px){
+    .login-div{
+        border-radius: calc(2px * 1.4);
+    }
+    
+    input[type=text], input[type=password]{
+        border: 1px solid #ccc;
+        border-radius: calc(2px * 1.4);
+        padding: calc(10px * 1.4) calc(15px * 1.4);
+    }
+    
+    input[type=text].focus:focus{
+        box-shadow: 0px 0px calc(10px * 1.4) dodgerblue;
+    }
+    
+    textarea{
+        border: calc(1px * 1.4) solid #ccc;
+        border-radius: calc(2px * 1.4);
+    }
+    
+    textarea.comment{
+        height: calc(100px * 1.4);
+    }
+    
+    button.login{
+        padding: calc(12px * 1.4) calc(15px * 1.4);
+    }
+    
+    button.logout{
+        padding: calc(2px * 1.4);
+    }
+    
+    button.logout:hover{
+        padding: calc(2px * 1.4) calc(3px * 1.4);
+    }
+    
+    #sidemenubar{
+        border-right: calc(3px * 1.4) solid #ccc;
+    }
+    
+    .nav-name {
+        padding: calc(15px * 1.4) calc(10px * 1.4);
+    }
+    
+    a .nav-menu{
+        padding: calc(15px * 1.4) calc(10px * 1.4);
+    }
+    
+    .sidebar{
+        border-left: calc(3px * 1.4) solid #ccc;
+    }
+    
+    .sidebar.active{
+        border-left: calc(3px * 1.4) solid #ccc;
+    }
+    
+    #topnavicon{
+        box-shadow: 0px calc(1px * 1.4) #ccc;
+    }
+    
+    header.heading{
+        box-shadow: 0px 0px calc(7px * 1.4) rgba(0,0,0,0.5);
+    }
+    
+    .mainlayout{
+        border-radius: calc(5px * 1.4);
+        box-shadow: 0 0 calc(7px * 1.4) calc(0.5px * 1.4) rgba(0,0,0,0.2);
+    }
+    
+    .mainlayout header{
+        border-bottom: calc(1px * 1.4) solid #ccc;
+        box-shadow: 0 0 calc(10px * 1.4) rgba(255,255,255,0.9);
+    }
+    
+    .mainlayout header button{
+        font-size: calc(0.8rem * 1.4);
+        padding: calc(6px * 1.4) calc(7px * 1.4);
+    }
+    
+    .member-item:hover{
+        box-shadow: 0px calc(1px * 1.4) calc(3px * 1.4) rgba(0,0,0,0.5);
+    }
+    
+    input[type=search]{
+        padding: calc(10px * 1.4) calc(13px * 1.4);
+    }
+    
+    input[type=date]{
+        padding: calc(10px * 1.4) calc(13px * 1.4);
+    }
+    
+    .collection .collection-head{
+        border-left: calc(4px * 1.4) solid rgb(218, 32, 55);
+        border-bottom: calc(4px * 1.4) solid rgb(55, 32, 55);
+    }
+    
+    a.guide{
+        padding: calc(5px * 1.4);
+        border-radius: calc(3px * 1.4);
+    }
+    
+    .assessments, .timelogs{
+        padding-left: calc(10px * 1.4);
+        margin-bottom: calc(5px * 1.4);
+    }
+    
+    .assessments::before, .timelogs::before{
+        width: calc(6px * 1.4);
+        height: calc(6px * 1.4);
+        border-radius: calc(50px * 1.4);
+    }
+    
+    input[type=number]{
+        padding: calc(8px * 1.4) calc(13px * 1.4);
+    }
+    
+    @keyframes collectionBodyActive{
+        0%{max-height: 0; overflow: hidden}
+        100%{max-height: calc(1500px * 1.4); overflow: auto}
+    }
+    
+    .assignment-assigned{
+        border-left: calc(4px * 1.4) solid #1a6ae3 !important;
+    }
+    
+    .assignment-assessed{
+        border-left: calc(4px * 1.4) solid #3eb592 !important;
+    }
+    
+    button.add-assignment{
+        font-size: calc(0.8rem * 1.4);
+        padding: calc(6px * 1.4) calc(7px * 1.4);
+    }
+    
+    button.add-assessment{
+        font-size: calc(0.8rem * 1.4);
+        padding: calc(6px * 1.4) calc(7px * 1.4);
+        border: calc(1px * 1.4) solid #000;
+    }
+    
+    .score{
+        width: calc(20px * 1.4);
+        height: calc(20px * 1.4);
+        border-radius: calc(10px * 1.4);
+    }
+    
+    .timeline{
+        border-left: calc(3px * 1.4) solid rgb(218, 32, 55);
+        padding: calc(10px * 1.4);
+    }
+    
+    .timeline .timeline-body{
+        border: calc(1px * 1.4) solid #ccc;
+        padding: calc(10px * 1.4);
+        margin-top: calc(10px * 1.4);
+        margin-bottom: calc(20px * 1.4);
+    }
+    
+    .timeline .timeline-body::before{
+        width: calc(10px * 1.4);
+        height: calc(10px * 1.4);
+        left: calc(-17px * 1.4);
+        border: calc(1px * 1.4) solid rgb(218, 32, 55);
+    }
+    
+    .thread{
+        border-radius: calc(5px * 1.4);
+        box-shadow: 0px 0px calc(3px * 1.4) #ccc;
+    }
+    
+    .thread-title{
+        padding: calc(10px * 1.4);
+        border-bottom: calc(1px * 1.4) solid #ccc;
+        margin-bottom: calc(2px * 1.4);
+    }
+    
+    .thread-messages{
+        min-height: calc(100px * 1.4);
+        max-height: calc(400px * 1.4);
+        margin-bottom: calc(10px * 1.4);
+    }
+    
+    .thread-message{
+        margin-bottom: calc(8px * 1.4);
+    }
+    
+    .thread-name{
+        width: calc(25px * 1.4);
+        height: calc(25px * 1.4);
+    }
+    
+    .thread-name.red{
+        box-shadow: 0px 0px calc(1px * 1.4) rgb(218, 32, 55);
+    }
+    
+    .thread-name.blue{
+        box-shadow: 0px 0px calc(1px * 1.4) rgb(26, 106, 227);
+    }
+    
+    .thread-msg{
+        border-radius: calc(3px * 1.4);
+        padding: calc(10px * 1.4);
+    }
+    
+    .thread-msg.red{
+        box-shadow: 0px 0px calc(1px * 1.4) rgb(218, 32, 55);
+    }
+    
+    .thread-msg.blue{
+        box-shadow: 0px 0px calc(1px * 1.4) rgb(26, 106, 227);
+    }
+    
+    table.table tr td.bordered{
+        border: calc(1px * 1.4) solid #ccc
+    }
+    
+    .calendar-box{
+        min-height: calc(110px * 1.4);
+        max-height: calc(110px * 1.4);
+    }
+    
+    .c-element{
+        padding: calc(10px * 1.4);
+        border: calc(1px * 1.4) solid #ccc;
+        border-radius: calc(5px * 1.4);
+    }
+    
+    .c-element-holder{
+        box-shadow: 0px 0px calc(3px * 1.4) rgba(0, 0, 0, 0.5);
+        max-height: calc(150px * 1.4);
+    }
+    
+    .c-element-item{
+        padding: calc(10px * 1.4);
+    }
+    
+    .modal-item{
+        padding: calc(10px * 1.4);
+    }
+    
+    .round-element{
+        border-radius: calc(5px * 1.4);
+    }
+
+    .marginBottom-5{
+        margin-bottom: calc(5px * 1.4);
+    }
+
+    .marginBottom-8{
+        margin-bottom: calc(8px * 1.4);
+    }
+
+    .marginTop-5{
+        margin-top: calc(5px * 1.4);
+    }
+    
+    .marginTop-8{
+        margin-top: calc(8px * 1.4);
+    }
+
+    .marginRight-3{
+        margin-right: calc(3px * 1.4);
+    }
+
+    .marginRight-5{
+        margin-right: calc(5px * 1.4);
+    }
+
+    .marginRight-10{
+        margin-right: calc(10px * 1.4);
+    }
+
+    .border-border-radius{
+        border: calc(1px * 1.4) solid #ccc;
+        border-radius: calc(3px * 1.4);
+    }
+
+    .skeleton{
+        margin: calc(0.75rem * 1.4) 0;
+        border-radius: calc(0.25rem * 1.4);
+    }
+    
+    .skeleton.box{
+        height: calc(2.5rem * 1.4);
+        margin-bottom: calc(0.1rem * 1.4);
+    }
+    
+    .skeleton.box-sm{
+        height: calc(1.875rem * 1.4);
+        margin-bottom: calc(0.1rem * 1.4);
+    }
+    
+    .skeleton.title{
+        height: calc(1.25rem * 1.4);
+        margin-bottom: calc(1rem * 1.4);
+    }
+    
+    .skeleton.text{
+        height: calc(0.75rem * 1.4);
+    }
+}
+
+/* Multiple font by 1.45 */
+@media screen and (max-width: 2304px) and (min-width: 2176px){
+    .login-div{
+        border-radius: calc(2px * 1.45);
+    }
+    
+    input[type=text], input[type=password]{
+        border: 1px solid #ccc;
+        border-radius: calc(2px * 1.45);
+        padding: calc(10px * 1.45) calc(15px * 1.45);
+    }
+    
+    input[type=text].focus:focus{
+        box-shadow: 0px 0px calc(10px * 1.45) dodgerblue;
+    }
+    
+    textarea{
+        border: calc(1px * 1.45) solid #ccc;
+        border-radius: calc(2px * 1.45);
+    }
+    
+    textarea.comment{
+        height: calc(100px * 1.45);
+    }
+    
+    button.login{
+        padding: calc(12px * 1.45) calc(15px * 1.45);
+    }
+    
+    button.logout{
+        padding: calc(2px * 1.45);
+    }
+    
+    button.logout:hover{
+        padding: calc(2px * 1.45) calc(3px * 1.45);
+    }
+    
+    #sidemenubar{
+        border-right: calc(3px * 1.45) solid #ccc;
+    }
+    
+    .nav-name {
+        padding: calc(15px * 1.45) calc(10px * 1.45);
+    }
+    
+    a .nav-menu{
+        padding: calc(15px * 1.45) calc(10px * 1.45);
+    }
+    
+    .sidebar{
+        border-left: calc(3px * 1.45) solid #ccc;
+    }
+    
+    .sidebar.active{
+        border-left: calc(3px * 1.45) solid #ccc;
+    }
+    
+    #topnavicon{
+        box-shadow: 0px calc(1px * 1.45) #ccc;
+    }
+    
+    header.heading{
+        box-shadow: 0px 0px calc(7px * 1.45) rgba(0,0,0,0.5);
+    }
+    
+    .mainlayout{
+        border-radius: calc(5px * 1.45);
+        box-shadow: 0 0 calc(7px * 1.45) calc(0.5px * 1.45) rgba(0,0,0,0.2);
+    }
+    
+    .mainlayout header{
+        border-bottom: calc(1px * 1.45) solid #ccc;
+        box-shadow: 0 0 calc(10px * 1.45) rgba(255,255,255,0.9);
+    }
+    
+    .mainlayout header button{
+        font-size: calc(0.8rem * 1.45);
+        padding: calc(6px * 1.45) calc(7px * 1.45);
+    }
+    
+    .member-item:hover{
+        box-shadow: 0px calc(1px * 1.45) calc(3px * 1.45) rgba(0,0,0,0.5);
+    }
+    
+    input[type=search]{
+        padding: calc(10px * 1.45) calc(13px * 1.45);
+    }
+    
+    input[type=date]{
+        padding: calc(10px * 1.45) calc(13px * 1.45);
+    }
+    
+    .collection .collection-head{
+        border-left: calc(4px * 1.45) solid rgb(218, 32, 55);
+        border-bottom: calc(4px * 1.45) solid rgb(55, 32, 55);
+    }
+    
+    a.guide{
+        padding: calc(5px * 1.45);
+        border-radius: calc(3px * 1.45);
+    }
+    
+    .assessments, .timelogs{
+        padding-left: calc(10px * 1.45);
+        margin-bottom: calc(5px * 1.45);
+    }
+    
+    .assessments::before, .timelogs::before{
+        width: calc(6px * 1.45);
+        height: calc(6px * 1.45);
+        border-radius: calc(50px * 1.45);
+    }
+    
+    input[type=number]{
+        padding: calc(8px * 1.45) calc(13px * 1.45);
+    }
+    
+    @keyframes collectionBodyActive{
+        0%{max-height: 0; overflow: hidden}
+        100%{max-height: calc(1500px * 1.45); overflow: auto}
+    }
+    
+    .assignment-assigned{
+        border-left: calc(4px * 1.45) solid #1a6ae3 !important;
+    }
+    
+    .assignment-assessed{
+        border-left: calc(4px * 1.45) solid #3eb592 !important;
+    }
+    
+    button.add-assignment{
+        font-size: calc(0.8rem * 1.45);
+        padding: calc(6px * 1.45) calc(7px * 1.45);
+    }
+    
+    button.add-assessment{
+        font-size: calc(0.8rem * 1.45);
+        padding: calc(6px * 1.45) calc(7px * 1.45);
+        border: calc(1px * 1.45) solid #000;
+    }
+    
+    .score{
+        width: calc(20px * 1.45);
+        height: calc(20px * 1.45);
+        border-radius: calc(10px * 1.45);
+    }
+    
+    .timeline{
+        border-left: calc(3px * 1.45) solid rgb(218, 32, 55);
+        padding: calc(10px * 1.45);
+    }
+    
+    .timeline .timeline-body{
+        border: calc(1px * 1.45) solid #ccc;
+        padding: calc(10px * 1.45);
+        margin-top: calc(10px * 1.45);
+        margin-bottom: calc(20px * 1.45);
+    }
+    
+    .timeline .timeline-body::before{
+        width: calc(10px * 1.45);
+        height: calc(10px * 1.45);
+        left: calc(-17px * 1.45);
+        border: calc(1px * 1.45) solid rgb(218, 32, 55);
+    }
+    
+    .thread{
+        border-radius: calc(5px * 1.45);
+        box-shadow: 0px 0px calc(3px * 1.45) #ccc;
+    }
+    
+    .thread-title{
+        padding: calc(10px * 1.45);
+        border-bottom: calc(1px * 1.45) solid #ccc;
+        margin-bottom: calc(2px * 1.45);
+    }
+    
+    .thread-messages{
+        min-height: calc(100px * 1.45);
+        max-height: calc(400px * 1.45);
+        margin-bottom: calc(10px * 1.45);
+    }
+    
+    .thread-message{
+        margin-bottom: calc(8px * 1.45);
+    }
+    
+    .thread-name{
+        width: calc(25px * 1.45);
+        height: calc(25px * 1.45);
+    }
+    
+    .thread-name.red{
+        box-shadow: 0px 0px calc(1px * 1.45) rgb(218, 32, 55);
+    }
+    
+    .thread-name.blue{
+        box-shadow: 0px 0px calc(1px * 1.45) rgb(26, 106, 227);
+    }
+    
+    .thread-msg{
+        border-radius: calc(3px * 1.45);
+        padding: calc(10px * 1.45);
+    }
+    
+    .thread-msg.red{
+        box-shadow: 0px 0px calc(1px * 1.45) rgb(218, 32, 55);
+    }
+    
+    .thread-msg.blue{
+        box-shadow: 0px 0px calc(1px * 1.45) rgb(26, 106, 227);
+    }
+    
+    table.table tr td.bordered{
+        border: calc(1px * 1.45) solid #ccc
+    }
+    
+    .calendar-box{
+        min-height: calc(110px * 1.45);
+        max-height: calc(110px * 1.45);
+    }
+    
+    .c-element{
+        padding: calc(10px * 1.45);
+        border: calc(1px * 1.45) solid #ccc;
+        border-radius: calc(5px * 1.45);
+    }
+    
+    .c-element-holder{
+        box-shadow: 0px 0px calc(3px * 1.45) rgba(0, 0, 0, 0.5);
+        max-height: calc(150px * 1.45);
+    }
+    
+    .c-element-item{
+        padding: calc(10px * 1.45);
+    }
+    
+    .modal-item{
+        padding: calc(10px * 1.45);
+    }
+    
+    .round-element{
+        border-radius: calc(5px * 1.45);
+    }
+
+    .marginBottom-5{
+        margin-bottom: calc(5px * 1.45);
+    }
+
+    .marginBottom-8{
+        margin-bottom: calc(8px * 1.45);
+    }
+
+    .marginTop-5{
+        margin-top: calc(5px * 1.45);
+    }
+    
+    .marginTop-8{
+        margin-top: calc(8px * 1.45);
+    }
+
+    .marginRight-3{
+        margin-right: calc(3px * 1.45);
+    }
+
+    .marginRight-5{
+        margin-right: calc(5px * 1.45);
+    }
+
+    .marginRight-10{
+        margin-right: calc(10px * 1.45);
+    }
+
+    .border-border-radius{
+        border: calc(1px * 1.45) solid #ccc;
+        border-radius: calc(3px * 1.45);
+    }
+
+    .skeleton{
+        margin: calc(0.75rem * 1.45) 0;
+        border-radius: calc(0.25rem * 1.45);
+    }
+    
+    .skeleton.box{
+        height: calc(2.5rem * 1.45);
+        margin-bottom: calc(0.1rem * 1.45);
+    }
+    
+    .skeleton.box-sm{
+        height: calc(1.875rem * 1.45);
+        margin-bottom: calc(0.1rem * 1.45);
+    }
+    
+    .skeleton.title{
+        height: calc(1.25rem * 1.45);
+        margin-bottom: calc(1rem * 1.45);
+    }
+    
+    .skeleton.text{
+        height: calc(0.75rem * 1.45);
+    }
+}
+
+/* Multiple font by 1.5 */
+@media screen and (max-width: 2432px) and (min-width: 2304px){
+    .login-div{
+        border-radius: calc(2px * 1.5);
+    }
+    
+    input[type=text], input[type=password]{
+        border: 1px solid #ccc;
+        border-radius: calc(2px * 1.5);
+        padding: calc(10px * 1.5) calc(15px * 1.5);
+    }
+    
+    input[type=text].focus:focus{
+        box-shadow: 0px 0px calc(10px * 1.5) dodgerblue;
+    }
+    
+    textarea{
+        border: calc(1px * 1.5) solid #ccc;
+        border-radius: calc(2px * 1.5);
+    }
+    
+    textarea.comment{
+        height: calc(100px * 1.5);
+    }
+    
+    button.login{
+        padding: calc(12px * 1.5) calc(15px * 1.5);
+    }
+    
+    button.logout{
+        padding: calc(2px * 1.5);
+    }
+    
+    button.logout:hover{
+        padding: calc(2px * 1.5) calc(3px * 1.5);
+    }
+    
+    #sidemenubar{
+        border-right: calc(3px * 1.5) solid #ccc;
+    }
+    
+    .nav-name {
+        padding: calc(15px * 1.5) calc(10px * 1.5);
+    }
+    
+    a .nav-menu{
+        padding: calc(15px * 1.5) calc(10px * 1.5);
+    }
+    
+    .sidebar{
+        border-left: calc(3px * 1.5) solid #ccc;
+    }
+    
+    .sidebar.active{
+        border-left: calc(3px * 1.5) solid #ccc;
+    }
+    
+    #topnavicon{
+        box-shadow: 0px calc(1px * 1.5) #ccc;
+    }
+    
+    header.heading{
+        box-shadow: 0px 0px calc(7px * 1.5) rgba(0,0,0,0.5);
+    }
+    
+    .mainlayout{
+        border-radius: calc(5px * 1.5);
+        box-shadow: 0 0 calc(7px * 1.5) calc(0.5px * 1.5) rgba(0,0,0,0.2);
+    }
+    
+    .mainlayout header{
+        border-bottom: calc(1px * 1.5) solid #ccc;
+        box-shadow: 0 0 calc(10px * 1.5) rgba(255,255,255,0.9);
+    }
+    
+    .mainlayout header button{
+        font-size: calc(0.8rem * 1.5);
+        padding: calc(6px * 1.5) calc(7px * 1.5);
+    }
+    
+    .member-item:hover{
+        box-shadow: 0px calc(1px * 1.5) calc(3px * 1.5) rgba(0,0,0,0.5);
+    }
+    
+    input[type=search]{
+        padding: calc(10px * 1.5) calc(13px * 1.5);
+    }
+    
+    input[type=date]{
+        padding: calc(10px * 1.5) calc(13px * 1.5);
+    }
+    
+    .collection .collection-head{
+        border-left: calc(4px * 1.5) solid rgb(218, 32, 55);
+        border-bottom: calc(4px * 1.5) solid rgb(55, 32, 55);
+    }
+    
+    a.guide{
+        padding: calc(5px * 1.5);
+        border-radius: calc(3px * 1.5);
+    }
+    
+    .assessments, .timelogs{
+        padding-left: calc(10px * 1.5);
+        margin-bottom: calc(5px * 1.5);
+    }
+    
+    .assessments::before, .timelogs::before{
+        width: calc(6px * 1.5);
+        height: calc(6px * 1.5);
+        border-radius: calc(50px * 1.5);
+    }
+    
+    input[type=number]{
+        padding: calc(8px * 1.5) calc(13px * 1.5);
+    }
+    
+    @keyframes collectionBodyActive{
+        0%{max-height: 0; overflow: hidden}
+        100%{max-height: calc(1500px * 1.5); overflow: auto}
+    }
+    
+    .assignment-assigned{
+        border-left: calc(4px * 1.5) solid #1a6ae3 !important;
+    }
+    
+    .assignment-assessed{
+        border-left: calc(4px * 1.5) solid #3eb592 !important;
+    }
+    
+    button.add-assignment{
+        font-size: calc(0.8rem * 1.5);
+        padding: calc(6px * 1.5) calc(7px * 1.5);
+    }
+    
+    button.add-assessment{
+        font-size: calc(0.8rem * 1.5);
+        padding: calc(6px * 1.5) calc(7px * 1.5);
+        border: calc(1px * 1.5) solid #000;
+    }
+    
+    .score{
+        width: calc(20px * 1.5);
+        height: calc(20px * 1.5);
+        border-radius: calc(10px * 1.5);
+    }
+    
+    .timeline{
+        border-left: calc(3px * 1.5) solid rgb(218, 32, 55);
+        padding: calc(10px * 1.5);
+    }
+    
+    .timeline .timeline-body{
+        border: calc(1px * 1.5) solid #ccc;
+        padding: calc(10px * 1.5);
+        margin-top: calc(10px * 1.5);
+        margin-bottom: calc(20px * 1.5);
+    }
+    
+    .timeline .timeline-body::before{
+        width: calc(10px * 1.5);
+        height: calc(10px * 1.5);
+        left: calc(-17px * 1.5);
+        border: calc(1px * 1.5) solid rgb(218, 32, 55);
+    }
+    
+    .thread{
+        border-radius: calc(5px * 1.5);
+        box-shadow: 0px 0px calc(3px * 1.5) #ccc;
+    }
+    
+    .thread-title{
+        padding: calc(10px * 1.5);
+        border-bottom: calc(1px * 1.5) solid #ccc;
+        margin-bottom: calc(2px * 1.5);
+    }
+    
+    .thread-messages{
+        min-height: calc(100px * 1.5);
+        max-height: calc(400px * 1.5);
+        margin-bottom: calc(10px * 1.5);
+    }
+    
+    .thread-message{
+        margin-bottom: calc(8px * 1.5);
+    }
+    
+    .thread-name{
+        width: calc(25px * 1.5);
+        height: calc(25px * 1.5);
+    }
+    
+    .thread-name.red{
+        box-shadow: 0px 0px calc(1px * 1.5) rgb(218, 32, 55);
+    }
+    
+    .thread-name.blue{
+        box-shadow: 0px 0px calc(1px * 1.5) rgb(26, 106, 227);
+    }
+    
+    .thread-msg{
+        border-radius: calc(3px * 1.5);
+        padding: calc(10px * 1.5);
+    }
+    
+    .thread-msg.red{
+        box-shadow: 0px 0px calc(1px * 1.5) rgb(218, 32, 55);
+    }
+    
+    .thread-msg.blue{
+        box-shadow: 0px 0px calc(1px * 1.5) rgb(26, 106, 227);
+    }
+    
+    table.table tr td.bordered{
+        border: calc(1px * 1.5) solid #ccc
+    }
+    
+    .calendar-box{
+        min-height: calc(110px * 1.5);
+        max-height: calc(110px * 1.5);
+    }
+    
+    .c-element{
+        padding: calc(10px * 1.5);
+        border: calc(1px * 1.5) solid #ccc;
+        border-radius: calc(5px * 1.5);
+    }
+    
+    .c-element-holder{
+        box-shadow: 0px 0px calc(3px * 1.5) rgba(0, 0, 0, 0.5);
+        max-height: calc(150px * 1.5);
+    }
+    
+    .c-element-item{
+        padding: calc(10px * 1.5);
+    }
+    
+    .modal-item{
+        padding: calc(10px * 1.5);
+    }
+    
+    .round-element{
+        border-radius: calc(5px * 1.5);
+    }
+
+    .marginBottom-5{
+        margin-bottom: calc(5px * 1.5);
+    }
+
+    .marginBottom-8{
+        margin-bottom: calc(8px * 1.5);
+    }
+
+    .marginTop-5{
+        margin-top: calc(5px * 1.5);
+    }
+    
+    .marginTop-8{
+        margin-top: calc(8px * 1.5);
+    }
+
+    .marginRight-3{
+        margin-right: calc(3px * 1.5);
+    }
+
+    .marginRight-5{
+        margin-right: calc(5px * 1.5);
+    }
+
+    .marginRight-10{
+        margin-right: calc(10px * 1.5);
+    }
+
+    .border-border-radius{
+        border: calc(1px * 1.5) solid #ccc;
+        border-radius: calc(3px * 1.5);
+    }
+
+    .skeleton{
+        margin: calc(0.75rem * 1.5) 0;
+        border-radius: calc(0.25rem * 1.5);
+    }
+    
+    .skeleton.box{
+        height: calc(2.5rem * 1.5);
+        margin-bottom: calc(0.1rem * 1.5);
+    }
+    
+    .skeleton.box-sm{
+        height: calc(1.875rem * 1.5);
+        margin-bottom: calc(0.1rem * 1.5);
+    }
+    
+    .skeleton.title{
+        height: calc(1.25rem * 1.5);
+        margin-bottom: calc(1rem * 1.5);
+    }
+    
+    .skeleton.text{
+        height: calc(0.75rem * 1.5);
+    }
+}
+
+/* Multiple font by 1.55 */
+@media screen and (max-width: 2560px) and (min-width: 2432px){
+    .login-div{
+        border-radius: calc(2px * 1.55);
+    }
+    
+    input[type=text], input[type=password]{
+        border: 1px solid #ccc;
+        border-radius: calc(2px * 1.55);
+        padding: calc(10px * 1.55) calc(15px * 1.55);
+    }
+    
+    input[type=text].focus:focus{
+        box-shadow: 0px 0px calc(10px * 1.55) dodgerblue;
+    }
+    
+    textarea{
+        border: calc(1px * 1.55) solid #ccc;
+        border-radius: calc(2px * 1.55);
+    }
+    
+    textarea.comment{
+        height: calc(100px * 1.55);
+    }
+    
+    button.login{
+        padding: calc(12px * 1.55) calc(15px * 1.55);
+    }
+    
+    button.logout{
+        padding: calc(2px * 1.55);
+    }
+    
+    button.logout:hover{
+        padding: calc(2px * 1.55) calc(3px * 1.55);
+    }
+    
+    #sidemenubar{
+        border-right: calc(3px * 1.55) solid #ccc;
+    }
+    
+    .nav-name {
+        padding: calc(15px * 1.55) calc(10px * 1.55);
+    }
+    
+    a .nav-menu{
+        padding: calc(15px * 1.55) calc(10px * 1.55);
+    }
+    
+    .sidebar{
+        border-left: calc(3px * 1.55) solid #ccc;
+    }
+    
+    .sidebar.active{
+        border-left: calc(3px * 1.55) solid #ccc;
+    }
+    
+    #topnavicon{
+        box-shadow: 0px calc(1px * 1.55) #ccc;
+    }
+    
+    header.heading{
+        box-shadow: 0px 0px calc(7px * 1.55) rgba(0,0,0,0.5);
+    }
+    
+    .mainlayout{
+        border-radius: calc(5px * 1.55);
+        box-shadow: 0 0 calc(7px * 1.55) calc(0.5px * 1.55) rgba(0,0,0,0.2);
+    }
+    
+    .mainlayout header{
+        border-bottom: calc(1px * 1.55) solid #ccc;
+        box-shadow: 0 0 calc(10px * 1.55) rgba(255,255,255,0.9);
+    }
+    
+    .mainlayout header button{
+        font-size: calc(0.8rem * 1.55);
+        padding: calc(6px * 1.55) calc(7px * 1.55);
+    }
+    
+    .member-item:hover{
+        box-shadow: 0px calc(1px * 1.55) calc(3px * 1.55) rgba(0,0,0,0.5);
+    }
+    
+    input[type=search]{
+        padding: calc(10px * 1.55) calc(13px * 1.55);
+    }
+    
+    input[type=date]{
+        padding: calc(10px * 1.55) calc(13px * 1.55);
+    }
+    
+    .collection .collection-head{
+        border-left: calc(4px * 1.55) solid rgb(218, 32, 55);
+        border-bottom: calc(4px * 1.55) solid rgb(55, 32, 55);
+    }
+    
+    a.guide{
+        padding: calc(5px * 1.55);
+        border-radius: calc(3px * 1.55);
+    }
+    
+    .assessments, .timelogs{
+        padding-left: calc(10px * 1.55);
+        margin-bottom: calc(5px * 1.55);
+    }
+    
+    .assessments::before, .timelogs::before{
+        width: calc(6px * 1.55);
+        height: calc(6px * 1.55);
+        border-radius: calc(50px * 1.55);
+    }
+    
+    input[type=number]{
+        padding: calc(8px * 1.55) calc(13px * 1.55);
+    }
+    
+    @keyframes collectionBodyActive{
+        0%{max-height: 0; overflow: hidden}
+        100%{max-height: calc(1500px * 1.55); overflow: auto}
+    }
+    
+    .assignment-assigned{
+        border-left: calc(4px * 1.55) solid #1a6ae3 !important;
+    }
+    
+    .assignment-assessed{
+        border-left: calc(4px * 1.55) solid #3eb592 !important;
+    }
+    
+    button.add-assignment{
+        font-size: calc(0.8rem * 1.55);
+        padding: calc(6px * 1.55) calc(7px * 1.55);
+    }
+    
+    button.add-assessment{
+        font-size: calc(0.8rem * 1.55);
+        padding: calc(6px * 1.55) calc(7px * 1.55);
+        border: calc(1px * 1.55) solid #000;
+    }
+    
+    .score{
+        width: calc(20px * 1.55);
+        height: calc(20px * 1.55);
+        border-radius: calc(10px * 1.55);
+    }
+    
+    .timeline{
+        border-left: calc(3px * 1.55) solid rgb(218, 32, 55);
+        padding: calc(10px * 1.55);
+    }
+    
+    .timeline .timeline-body{
+        border: calc(1px * 1.55) solid #ccc;
+        padding: calc(10px * 1.55);
+        margin-top: calc(10px * 1.55);
+        margin-bottom: calc(20px * 1.55);
+    }
+    
+    .timeline .timeline-body::before{
+        width: calc(10px * 1.55);
+        height: calc(10px * 1.55);
+        left: calc(-17px * 1.55);
+        border: calc(1px * 1.55) solid rgb(218, 32, 55);
+    }
+    
+    .thread{
+        border-radius: calc(5px * 1.55);
+        box-shadow: 0px 0px calc(3px * 1.55) #ccc;
+    }
+    
+    .thread-title{
+        padding: calc(10px * 1.55);
+        border-bottom: calc(1px * 1.55) solid #ccc;
+        margin-bottom: calc(2px * 1.55);
+    }
+    
+    .thread-messages{
+        min-height: calc(100px * 1.55);
+        max-height: calc(400px * 1.55);
+        margin-bottom: calc(10px * 1.55);
+    }
+    
+    .thread-message{
+        margin-bottom: calc(8px * 1.55);
+    }
+    
+    .thread-name{
+        width: calc(25px * 1.55);
+        height: calc(25px * 1.55);
+    }
+    
+    .thread-name.red{
+        box-shadow: 0px 0px calc(1px * 1.55) rgb(218, 32, 55);
+    }
+    
+    .thread-name.blue{
+        box-shadow: 0px 0px calc(1px * 1.55) rgb(26, 106, 227);
+    }
+    
+    .thread-msg{
+        border-radius: calc(3px * 1.55);
+        padding: calc(10px * 1.55);
+    }
+    
+    .thread-msg.red{
+        box-shadow: 0px 0px calc(1px * 1.55) rgb(218, 32, 55);
+    }
+    
+    .thread-msg.blue{
+        box-shadow: 0px 0px calc(1px * 1.55) rgb(26, 106, 227);
+    }
+    
+    table.table tr td.bordered{
+        border: calc(1px * 1.55) solid #ccc
+    }
+    
+    .calendar-box{
+        min-height: calc(110px * 1.55);
+        max-height: calc(110px * 1.55);
+    }
+    
+    .c-element{
+        padding: calc(10px * 1.55);
+        border: calc(1px * 1.55) solid #ccc;
+        border-radius: calc(5px * 1.55);
+    }
+    
+    .c-element-holder{
+        box-shadow: 0px 0px calc(3px * 1.55) rgba(0, 0, 0, 0.5);
+        max-height: calc(150px * 1.55);
+    }
+    
+    .c-element-item{
+        padding: calc(10px * 1.55);
+    }
+    
+    .modal-item{
+        padding: calc(10px * 1.55);
+    }
+    
+    .round-element{
+        border-radius: calc(5px * 1.55);
+    }
+
+    .marginBottom-5{
+        margin-bottom: calc(5px * 1.55);
+    }
+
+    .marginBottom-8{
+        margin-bottom: calc(8px * 1.55);
+    }
+
+    .marginTop-5{
+        margin-top: calc(5px * 1.55);
+    }
+    
+    .marginTop-8{
+        margin-top: calc(8px * 1.55);
+    }
+
+    .marginRight-3{
+        margin-right: calc(3px * 1.55);
+    }
+
+    .marginRight-5{
+        margin-right: calc(5px * 1.55);
+    }
+
+    .marginRight-10{
+        margin-right: calc(10px * 1.55);
+    }
+
+    .border-border-radius{
+        border: calc(1px * 1.55) solid #ccc;
+        border-radius: calc(3px * 1.55);
+    }
+
+    .skeleton{
+        margin: calc(0.75rem * 1.55) 0;
+        border-radius: calc(0.25rem * 1.55);
+    }
+    
+    .skeleton.box{
+        height: calc(2.5rem * 1.55);
+        margin-bottom: calc(0.1rem * 1.55);
+    }
+    
+    .skeleton.box-sm{
+        height: calc(1.875rem * 1.55);
+        margin-bottom: calc(0.1rem * 1.55);
+    }
+    
+    .skeleton.title{
+        height: calc(1.25rem * 1.55);
+        margin-bottom: calc(1rem * 1.55);
+    }
+    
+    .skeleton.text{
+        height: calc(0.75rem * 1.55);
+    }
+}
+
+/* Multiple font by 1.6 */
+@media screen and (min-width: 2560px){
+    .login-div{
+        border-radius: calc(2px * 1.6);
+    }
+    
+    input[type=text], input[type=password]{
+        border: 1px solid #ccc;
+        border-radius: calc(2px * 1.6);
+        padding: calc(10px * 1.6) calc(15px * 1.6);
+    }
+    
+    input[type=text].focus:focus{
+        box-shadow: 0px 0px calc(10px * 1.6) dodgerblue;
+    }
+    
+    textarea{
+        border: calc(1px * 1.6) solid #ccc;
+        border-radius: calc(2px * 1.6);
+    }
+    
+    textarea.comment{
+        height: calc(100px * 1.6);
+    }
+    
+    button.login{
+        padding: calc(12px * 1.6) calc(15px * 1.6);
+    }
+    
+    button.logout{
+        padding: calc(2px * 1.6);
+    }
+    
+    button.logout:hover{
+        padding: calc(2px * 1.6) calc(3px * 1.6);
+    }
+    
+    #sidemenubar{
+        border-right: calc(3px * 1.6) solid #ccc;
+    }
+    
+    .nav-name {
+        padding: calc(15px * 1.6) calc(10px * 1.6);
+    }
+    
+    a .nav-menu{
+        padding: calc(15px * 1.6) calc(10px * 1.6);
+    }
+    
+    .sidebar{
+        border-left: calc(3px * 1.6) solid #ccc;
+    }
+    
+    .sidebar.active{
+        border-left: calc(3px * 1.6) solid #ccc;
+    }
+    
+    #topnavicon{
+        box-shadow: 0px calc(1px * 1.6) #ccc;
+    }
+    
+    header.heading{
+        box-shadow: 0px 0px calc(7px * 1.6) rgba(0,0,0,0.5);
+    }
+    
+    .mainlayout{
+        border-radius: calc(5px * 1.6);
+        box-shadow: 0 0 calc(7px * 1.6) calc(0.5px * 1.6) rgba(0,0,0,0.2);
+    }
+    
+    .mainlayout header{
+        border-bottom: calc(1px * 1.6) solid #ccc;
+        box-shadow: 0 0 calc(10px * 1.6) rgba(255,255,255,0.9);
+    }
+    
+    .mainlayout header button{
+        font-size: calc(0.8rem * 1.6);
+        padding: calc(6px * 1.6) calc(7px * 1.6);
+    }
+    
+    .member-item:hover{
+        box-shadow: 0px calc(1px * 1.6) calc(3px * 1.6) rgba(0,0,0,0.5);
+    }
+    
+    input[type=search]{
+        padding: calc(10px * 1.6) calc(13px * 1.6);
+    }
+    
+    input[type=date]{
+        padding: calc(10px * 1.6) calc(13px * 1.6);
+    }
+    
+    .collection .collection-head{
+        border-left: calc(4px * 1.6) solid rgb(218, 32, 55);
+        border-bottom: calc(4px * 1.6) solid rgb(55, 32, 55);
+    }
+    
+    a.guide{
+        padding: calc(5px * 1.6);
+        border-radius: calc(3px * 1.6);
+    }
+    
+    .assessments, .timelogs{
+        padding-left: calc(10px * 1.6);
+        margin-bottom: calc(5px * 1.6);
+    }
+    
+    .assessments::before, .timelogs::before{
+        width: calc(6px * 1.6);
+        height: calc(6px * 1.6);
+        border-radius: calc(50px * 1.6);
+    }
+    
+    input[type=number]{
+        padding: calc(8px * 1.6) calc(13px * 1.6);
+    }
+    
+    @keyframes collectionBodyActive{
+        0%{max-height: 0; overflow: hidden}
+        100%{max-height: calc(1500px * 1.6); overflow: auto}
+    }
+    
+    .assignment-assigned{
+        border-left: calc(4px * 1.6) solid #1a6ae3 !important;
+    }
+    
+    .assignment-assessed{
+        border-left: calc(4px * 1.6) solid #3eb592 !important;
+    }
+    
+    button.add-assignment{
+        font-size: calc(0.8rem * 1.6);
+        padding: calc(6px * 1.6) calc(7px * 1.6);
+    }
+    
+    button.add-assessment{
+        font-size: calc(0.8rem * 1.6);
+        padding: calc(6px * 1.6) calc(7px * 1.6);
+        border: calc(1px * 1.6) solid #000;
+    }
+    
+    .score{
+        width: calc(20px * 1.6);
+        height: calc(20px * 1.6);
+        border-radius: calc(10px * 1.6);
+    }
+    
+    .timeline{
+        border-left: calc(3px * 1.6) solid rgb(218, 32, 55);
+        padding: calc(10px * 1.6);
+    }
+    
+    .timeline .timeline-body{
+        border: calc(1px * 1.6) solid #ccc;
+        padding: calc(10px * 1.6);
+        margin-top: calc(10px * 1.6);
+        margin-bottom: calc(20px * 1.6);
+    }
+    
+    .timeline .timeline-body::before{
+        width: calc(10px * 1.6);
+        height: calc(10px * 1.6);
+        left: calc(-17px * 1.6);
+        border: calc(1px * 1.6) solid rgb(218, 32, 55);
+    }
+    
+    .thread{
+        border-radius: calc(5px * 1.6);
+        box-shadow: 0px 0px calc(3px * 1.6) #ccc;
+    }
+    
+    .thread-title{
+        padding: calc(10px * 1.6);
+        border-bottom: calc(1px * 1.6) solid #ccc;
+        margin-bottom: calc(2px * 1.6);
+    }
+    
+    .thread-messages{
+        min-height: calc(100px * 1.6);
+        max-height: calc(400px * 1.6);
+        margin-bottom: calc(10px * 1.6);
+    }
+    
+    .thread-message{
+        margin-bottom: calc(8px * 1.6);
+    }
+    
+    .thread-name{
+        width: calc(25px * 1.6);
+        height: calc(25px * 1.6);
+    }
+    
+    .thread-name.red{
+        box-shadow: 0px 0px calc(1px * 1.6) rgb(218, 32, 55);
+    }
+    
+    .thread-name.blue{
+        box-shadow: 0px 0px calc(1px * 1.6) rgb(26, 106, 227);
+    }
+    
+    .thread-msg{
+        border-radius: calc(3px * 1.6);
+        padding: calc(10px * 1.6);
+    }
+    
+    .thread-msg.red{
+        box-shadow: 0px 0px calc(1px * 1.6) rgb(218, 32, 55);
+    }
+    
+    .thread-msg.blue{
+        box-shadow: 0px 0px calc(1px * 1.6) rgb(26, 106, 227);
+    }
+    
+    table.table tr td.bordered{
+        border: calc(1px * 1.6) solid #ccc
+    }
+    
+    .calendar-box{
+        min-height: calc(110px * 1.6);
+        max-height: calc(110px * 1.6);
+    }
+    
+    .c-element{
+        padding: calc(10px * 1.6);
+        border: calc(1px * 1.6) solid #ccc;
+        border-radius: calc(5px * 1.6);
+    }
+    
+    .c-element-holder{
+        box-shadow: 0px 0px calc(3px * 1.6) rgba(0, 0, 0, 0.5);
+        max-height: calc(150px * 1.6);
+    }
+    
+    .c-element-item{
+        padding: calc(10px * 1.6);
+    }
+    
+    .modal-item{
+        padding: calc(10px * 1.6);
+    }
+    
+    .round-element{
+        border-radius: calc(5px * 1.6);
+    }
+
+    .marginBottom-5{
+        margin-bottom: calc(5px * 1.6);
+    }
+
+    .marginBottom-8{
+        margin-bottom: calc(8px * 1.6);
+    }
+
+    .marginTop-5{
+        margin-top: calc(5px * 1.6);
+    }
+    
+    .marginTop-8{
+        margin-top: calc(8px * 1.6);
+    }
+
+    .marginRight-3{
+        margin-right: calc(3px * 1.6);
+    }
+
+    .marginRight-5{
+        margin-right: calc(5px * 1.6);
+    }
+
+    .marginRight-10{
+        margin-right: calc(10px * 1.6);
+    }
+
+    .border-border-radius{
+        border: calc(1px * 1.6) solid #ccc;
+        border-radius: calc(3px * 1.6);
+    }
+
+    .skeleton{
+        margin: calc(0.75rem * 1.6) 0;
+        border-radius: calc(0.25rem * 1.6);
+    }
+    
+    .skeleton.box{
+        height: calc(2.5rem * 1.6);
+        margin-bottom: calc(0.1rem * 1.6);
+    }
+    
+    .skeleton.box-sm{
+        height: calc(1.875rem * 1.6);
+        margin-bottom: calc(0.1rem * 1.6);
+    }
+    
+    .skeleton.title{
+        height: calc(1.25rem * 1.6);
+        margin-bottom: calc(1rem * 1.6);
+    }
+    
+    .skeleton.text{
+        height: calc(0.75rem * 1.6);
+    }
+}

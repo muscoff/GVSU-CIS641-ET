@@ -1,0 +1,1 @@
+[{"username":"muscoff@gmail.com","password":"$2b$10$EDhXwqeHyTWDvdDfbFiY7.MQw8T0ejfdbuMzsy6j3uE1Je/YhKEFS","admin":true}]

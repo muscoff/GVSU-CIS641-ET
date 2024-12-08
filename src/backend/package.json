@@ -1,0 +1,22 @@
+{
+  "name": "ecommerce-backend",
+  "version": "1.0.0",
+  "description": "\"Backend for ET project\"",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app",
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mustapha Muhammed Botchway",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "formidable": "^3.5.2"
+  }
+}

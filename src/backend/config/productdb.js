@@ -1,0 +1,1 @@
+[{"seller":"muscoff@gmail.com","products":[{"id":155226055,"name":"microwave","price":"50","description":"It is in a good condition","img":"localhost:4000/images/6e9444a4521f665098f672700.jpeg"},{"id":659844980,"name":"Rice Cooker","price":"40","description":"This is a rarely used cooker","img":"localhost:4000/images/d6b54308db278bc5b55160a00.jpeg"}]}]
