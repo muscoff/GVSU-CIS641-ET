@@ -8,7 +8,7 @@ During my first semester stay at campus housing, most students leave valuable it
 The ET platform aims at providing students the opportunity to sell valuable items in perfect to good condition to other residents and get some cash back on their valuables.
 
 # SRS
-[Software Requirement Specifications SRS](https://github.com/muscoff/GVSU-CIS641-ET/blob/main/docs/software_requirements_specification.md)
+[Software Requirement Specifications SRS](https://github.com/muscoff/GVSU-CIS641-ET/blob/main/docs/software_requirements_specification_final.md)
 
 ## Team Members and Roles
 
